@@ -1,5 +1,3 @@
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
@@ -11,8 +9,6 @@
 int hijo1, hijo2;
 int tuberia[2];
 
-
-////////////CASO DE COMUNICACION DE PROCESOS DE LA MISMA JERARQUIA////////////
 int main(int argc, char const *argv[])
 {
     pipe(tuberia);
@@ -34,6 +30,7 @@ int main(int argc, char const *argv[])
             write(tuberia[1], mensaje, strlen(mensaje));            
             break;
         default: hijo2 = fork();
+
         switch (hijo2)
         {
             case -1:
