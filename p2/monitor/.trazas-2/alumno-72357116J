@@ -1,0 +1,2088 @@
+1647416254: COMMAND <cp ./monitor2 /tmp/.monitor2>
+1647416254: COMMAND <cp -f /tmp/.monitor2 ./monitor2>
+1647416254: COMMAND <uname -a >> .trazas-2/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-35-generic #40~20.04.1-Ubuntu SMP Mon Mar 7 09:18:32 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1647416254: COMMAND <ifconfig 2>&1 >> .trazas-2/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.20.10.5  netmask 255.255.255.240  broadcast 172.20.10.15
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 90282  bytes 96540539 (96.5 MB)
+        RX errors 0  dropped 6474  overruns 0  frame 0
+        TX packets 26131  bytes 4704086 (4.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 129562
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 3553  bytes 312663 (312.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3553  bytes 312663 (312.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1647416254: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-2/alumno-72357116J>
+MACHINE-ID: 1647416254: COMMAND <cat /etc/machine-id >> .trazas-2/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1647416254: 
+La máquina está ya identificada.
+1647416254: RX: <OK Accepted>
+1647416266: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1647416266: RX: <NEW>
+1647416266: 
+***************************************************
+El usuario no tiene un password público registrado.
+Por favor, confirme el password para darlo de alta.
+[5mEl password debe recordarlo para futuras sesiones.[0m
+Utilice una secuencia de caracteres personal privados.
+En el servidor se guardará una versión encriptada.
+Si no está de acuerdo con el password que ha utilizado
+interrumpa el proceso y comience de nuevo el registro.
+Posteriormente será más complicado modificarlo. Tendrá.
+que ponerse en contacto con el administrador:
+                 armando.ferro@ehu.eus
+***************************************************
+1647416280: 
+ALERT!! Fallo en la identificación del usuario <Z1yhehbPwv0CnQ>.
+1647416286: TX: <CREATEPWD 0uaiaNcMG41rnQ>
+1647416286: [5m
+LOGIN: Registrado password público <0uaiaNcMG41rnQ>.[0m
+1647416286: RX: <DONE>
+1647416286: 
+********************************************
+           INICIANDO SESION
+********************************************
+1647416286: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1647416286: RX: <REGISTERED>
+1647416463: COMMAND <cp ./monitor2 /tmp/.monitor2>
+1647416463: COMMAND <cp -f /tmp/.monitor2 ./monitor2>
+1647416463: COMMAND <uname -a >> .trazas-2/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-35-generic #40~20.04.1-Ubuntu SMP Mon Mar 7 09:18:32 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1647416464: COMMAND <ifconfig 2>&1 >> .trazas-2/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.20.10.5  netmask 255.255.255.240  broadcast 172.20.10.15
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 93599  bytes 97120536 (97.1 MB)
+        RX errors 0  dropped 6474  overruns 0  frame 0
+        TX packets 27815  bytes 5596394 (5.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 138018
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 3598  bytes 318910 (318.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3598  bytes 318910 (318.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1647416464: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-2/alumno-72357116J>
+MACHINE-ID: 1647416464: COMMAND <cat /etc/machine-id >> .trazas-2/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1647416464: 
+La máquina está ya identificada.
+1647416464: RX: <OK Accepted>
+1647416464: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1647416464: RX: <OK>
+1647416464: 
+********************************************
+           INICIANDO SESION
+********************************************
+1647416464: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1647416464: RX: <REGISTERED>
+1647416504: COMMAND <cp ./monitor2 /tmp/.monitor2>
+1647416504: COMMAND <cp -f /tmp/.monitor2 ./monitor2>
+1647416504: COMMAND <uname -a >> .trazas-2/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-35-generic #40~20.04.1-Ubuntu SMP Mon Mar 7 09:18:32 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1647416504: COMMAND <ifconfig 2>&1 >> .trazas-2/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.20.10.5  netmask 255.255.255.240  broadcast 172.20.10.15
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 94081  bytes 97185662 (97.1 MB)
+        RX errors 0  dropped 6474  overruns 0  frame 0
+        TX packets 28115  bytes 5678262 (5.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 139508
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 3600  bytes 319068 (319.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3600  bytes 319068 (319.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1647416504: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-2/alumno-72357116J>
+MACHINE-ID: 1647416504: COMMAND <cat /etc/machine-id >> .trazas-2/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1647416504: 
+La máquina está ya identificada.
+1647416504: RX: <OK Accepted>
+1647416504: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1647416504: RX: <OK>
+1647416504: 
+********************************************
+           INICIANDO SESION
+********************************************
+1647416504: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1647416505: RX: <REGISTERED>
+1647416505: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1647416505: COMMAND <cp ./client.? .trazas-2>
+1647416505: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1647416505: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-2\nput save_file-72357116J 72357116J-16-3-7h41\n" | 	  ftp -n 2>&1 > /dev/null>
+1647416506: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1647416597: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647416597: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647416597: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647416597: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647416597: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:43 /tmp/fifo_monitor_1
+1647416598: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647416600: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647416600: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647416600: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647416601: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647416889: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647416902: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647416902: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647416902: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647416902: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647416902: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:48 /tmp/fifo_monitor_1
+1647416902: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647416914: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647416914: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647416914: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647416949: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647416949: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647416949: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647416949: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647416949: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:49 /tmp/fifo_monitor_1
+1647416949: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647416957: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647416957: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647416957: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647416958: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417148: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647417148: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647417148: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647417148: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647417148: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:52 /tmp/fifo_monitor_1
+1647417148: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647417150: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647417150: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647417150: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417151: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417193: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647417193: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647417193: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647417193: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647417193: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:53 /tmp/fifo_monitor_1
+1647417193: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647417195: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647417195: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647417195: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417196: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417199: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647417199: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:53 /tmp/fifo_monitor_1
+1647417199: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647417199: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647417199: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647417204: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 07:53 /tmp/fifo_monitor_2
+1647417252: COMMAND <cp ./monitor2 /tmp/.monitor2>
+1647417252: COMMAND <cp -f /tmp/.monitor2 ./monitor2>
+1647417252: COMMAND <uname -a >> .trazas-2/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-35-generic #40~20.04.1-Ubuntu SMP Mon Mar 7 09:18:32 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1647417252: COMMAND <ifconfig 2>&1 >> .trazas-2/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.20.10.5  netmask 255.255.255.240  broadcast 172.20.10.15
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 103450  bytes 98878799 (98.8 MB)
+        RX errors 0  dropped 6474  overruns 0  frame 0
+        TX packets 32783  bytes 7835761 (7.8 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 162863
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 3626  bytes 321694 (321.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3626  bytes 321694 (321.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1647417252: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-2/alumno-72357116J>
+MACHINE-ID: 1647417252: COMMAND <cat /etc/machine-id >> .trazas-2/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1647417252: 
+La máquina está ya identificada.
+1647417252: RX: <OK Accepted>
+1647417252: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1647417252: RX: <OK>
+1647417252: 
+********************************************
+           INICIANDO SESION
+********************************************
+1647417252: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1647417252: RX: <REGISTERED>
+1647417252: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1647417252: COMMAND <cp ./client.? .trazas-2>
+1647417252: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1647417252: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-2\nput save_file-72357116J 72357116J-16-3-7h54\n" | 	  ftp -n 2>&1 > /dev/null>
+1647417254: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1647417273: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647417273: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647417273: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647417273: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647417273: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:54 /tmp/fifo_monitor_1
+1647417273: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647417275: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647417275: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647417275: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417276: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417278: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647417278: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:54 /tmp/fifo_monitor_1
+1647417278: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 07:53 /tmp/fifo_monitor_2
+1647417278: 
+-------------------------------------------------------
+Existe el fifo </tmp/fifo_monitor_2>.
+Se procede a su borrado para esperar a su creación
+-------------------------------------------------------
+1647417278: COMMAND <rm -f /tmp/fifo_monitor_2>
+1647417278: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647417278: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647417283: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647417288: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647417293: 
+-----------------------------------------------------------------------
+No se ha creado el dispositivo </tmp/fifo_monitor_2> para enviar mensajes al monitor.
+-----------------------------------------------------------------------
+1647417293: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 2.
+
+*************************************************[0m
+1647417293: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417294: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417366: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647417366: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647417366: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647417366: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647417366: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:56 /tmp/fifo_monitor_1
+1647417366: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647417367: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647417367: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647417367: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417368: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417371: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647417371: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:56 /tmp/fifo_monitor_1
+1647417371: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 07:54 /tmp/fifo_monitor_2
+1647417371: 
+-------------------------------------------------------
+Existe el fifo </tmp/fifo_monitor_2>.
+Se procede a su borrado para esperar a su creación
+-------------------------------------------------------
+1647417371: COMMAND <rm -f /tmp/fifo_monitor_2>
+1647417371: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647417372: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647417377: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 07:56 /tmp/fifo_monitor_2
+1647417377: 
+-------------------------------------------------------
+ MONITOR: Abriendo el dispositivo </tmp/fifo_monitor_2> para leer.
+-------------------------------------------------------
+1647417377: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <1> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647417377: 
+[5m-------------------------------------------------------
+Mal formato de mensaje. Se esperaba "<999>" y ha llegado "200
+".
+-------------------------------------------------------[0m
+1647417377: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <1> .
+
+*************************************************[0m
+1647417377: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1647417377: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417378: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417395: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647417395: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647417396: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647417396: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647417396: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:56 /tmp/fifo_monitor_1
+1647417396: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647417398: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647417398: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647417398: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417399: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417402: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647417402: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:56 /tmp/fifo_monitor_1
+1647417403: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 07:56 /tmp/fifo_monitor_2
+1647417403: 
+-------------------------------------------------------
+Existe el fifo </tmp/fifo_monitor_2>.
+Se procede a su borrado para esperar a su creación
+-------------------------------------------------------
+1647417403: COMMAND <rm -f /tmp/fifo_monitor_2>
+1647417403: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647417403: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647417408: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647417413: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 07:56 /tmp/fifo_monitor_2
+1647417413: 
+-------------------------------------------------------
+ MONITOR: Abriendo el dispositivo </tmp/fifo_monitor_2> para leer.
+-------------------------------------------------------
+1647417413: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <1> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647417413: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <200>.
+********************************************[0m
+1647417416: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647417436: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1647417436: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417437: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417505: COMMAND <cp ./monitor2 /tmp/.monitor2>
+1647417505: COMMAND <cp -f /tmp/.monitor2 ./monitor2>
+1647417505: COMMAND <uname -a >> .trazas-2/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-35-generic #40~20.04.1-Ubuntu SMP Mon Mar 7 09:18:32 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1647417505: COMMAND <ifconfig 2>&1 >> .trazas-2/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.20.10.5  netmask 255.255.255.240  broadcast 172.20.10.15
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 107898  bytes 99669883 (99.6 MB)
+        RX errors 0  dropped 6474  overruns 0  frame 0
+        TX packets 35064  bytes 8736630 (8.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 174243
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 3632  bytes 322152 (322.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3632  bytes 322152 (322.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1647417505: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-2/alumno-72357116J>
+MACHINE-ID: 1647417505: COMMAND <cat /etc/machine-id >> .trazas-2/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1647417505: 
+La máquina está ya identificada.
+1647417505: RX: <OK Accepted>
+1647417505: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1647417505: RX: <OK>
+1647417505: 
+********************************************
+           INICIANDO SESION
+********************************************
+1647417505: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1647417505: RX: <REGISTERED>
+1647417505: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1647417505: COMMAND <cp ./client.? .trazas-2>
+1647417505: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1647417505: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-2\nput save_file-72357116J 72357116J-16-3-7h58\n" | 	  ftp -n 2>&1 > /dev/null>
+1647417507: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1647417521: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647417521: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647417521: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647417521: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647417521: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:58 /tmp/fifo_monitor_1
+1647417521: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647417522: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647417522: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647417522: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417523: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417526: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647417526: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 07:58 /tmp/fifo_monitor_1
+1647417526: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 07:56 /tmp/fifo_monitor_2
+1647417526: 
+-------------------------------------------------------
+Existe el fifo </tmp/fifo_monitor_2>.
+Se procede a su borrado para esperar a su creación
+-------------------------------------------------------
+1647417526: COMMAND <rm -f /tmp/fifo_monitor_2>
+1647417526: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647417526: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647417532: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647417537: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 07:58 /tmp/fifo_monitor_2
+1647417537: 
+-------------------------------------------------------
+ MONITOR: Abriendo el dispositivo </tmp/fifo_monitor_2> para leer.
+-------------------------------------------------------
+1647417537: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <1> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647417537: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <200>.
+********************************************[0m
+1647417540: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647417540: 
+------------------------------------------------------------------
+Enviando secreto <2> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647417540: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <2> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647417540: 
+[5m-------------------------------------------------------
+Mal formato de mensaje. Se esperaba "<999>" y ha llegado "".
+-------------------------------------------------------[0m
+1647417540: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <2> .
+
+*************************************************[0m
+1647417540: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1647417540: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647417541: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419172: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647419172: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647419172: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647419173: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647419173: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:26 /tmp/fifo_monitor_1
+1647419173: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647419173: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647419173: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647419173: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419175: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419177: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647419177: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:26 /tmp/fifo_monitor_1
+1647419177: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 07:58 /tmp/fifo_monitor_2
+1647419177: 
+-------------------------------------------------------
+Existe el fifo </tmp/fifo_monitor_2>.
+Se procede a su borrado para esperar a su creación
+-------------------------------------------------------
+1647419177: COMMAND <rm -f /tmp/fifo_monitor_2>
+1647419177: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647419177: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419183: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419188: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 08:26 /tmp/fifo_monitor_2
+1647419188: 
+-------------------------------------------------------
+ MONITOR: Abriendo el dispositivo </tmp/fifo_monitor_2> para leer.
+-------------------------------------------------------
+1647419188: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <1> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647419188: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <200>.
+********************************************[0m
+1647419191: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647419191: 
+------------------------------------------------------------------
+Enviando secreto <2> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647419191: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <2> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647419191: 
+[5m-------------------------------------------------------
+Mal formato de mensaje. Se esperaba "<999>" y ha llegado "".
+-------------------------------------------------------[0m
+1647419191: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <2> .
+
+*************************************************[0m
+1647419191: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1647419191: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419192: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419211: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647419211: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647419212: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647419212: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647419212: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:26 /tmp/fifo_monitor_1
+1647419212: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647419217: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647419217: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647419217: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419218: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419223: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647419223: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:26 /tmp/fifo_monitor_1
+1647419223: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 08:26 /tmp/fifo_monitor_2
+1647419223: 
+-------------------------------------------------------
+Existe el fifo </tmp/fifo_monitor_2>.
+Se procede a su borrado para esperar a su creación
+-------------------------------------------------------
+1647419223: COMMAND <rm -f /tmp/fifo_monitor_2>
+1647419223: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647419223: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419228: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419233: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 08:27 /tmp/fifo_monitor_2
+1647419233: 
+-------------------------------------------------------
+ MONITOR: Abriendo el dispositivo </tmp/fifo_monitor_2> para leer.
+-------------------------------------------------------
+1647419233: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <1> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647419233: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <200>.
+********************************************[0m
+1647419236: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647419236: 
+------------------------------------------------------------------
+Enviando secreto <2> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647419236: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <2> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647419236: 
+[5m-------------------------------------------------------
+Mal formato de mensaje. Se esperaba "<999>" y ha llegado "".
+-------------------------------------------------------[0m
+1647419236: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <2> .
+
+*************************************************[0m
+1647419236: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1647419236: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419237: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419255: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647419255: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647419255: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647419255: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647419255: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:27 /tmp/fifo_monitor_1
+1647419255: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647419259: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647419259: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647419259: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419260: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419262: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647419262: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:27 /tmp/fifo_monitor_1
+1647419262: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 08:27 /tmp/fifo_monitor_2
+1647419263: 
+-------------------------------------------------------
+Existe el fifo </tmp/fifo_monitor_2>.
+Se procede a su borrado para esperar a su creación
+-------------------------------------------------------
+1647419263: COMMAND <rm -f /tmp/fifo_monitor_2>
+1647419263: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647419263: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419268: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419273: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 08:27 /tmp/fifo_monitor_2
+1647419273: 
+-------------------------------------------------------
+ MONITOR: Abriendo el dispositivo </tmp/fifo_monitor_2> para leer.
+-------------------------------------------------------
+1647419273: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <1> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647419273: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <200>.
+********************************************[0m
+1647419276: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647419276: 
+------------------------------------------------------------------
+Enviando secreto <2> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647419276: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <2> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647419276: 
+[5m-------------------------------------------------------
+Mal formato de mensaje. Se esperaba "<999>" y ha llegado "".
+-------------------------------------------------------[0m
+1647419276: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <2> .
+
+*************************************************[0m
+1647419276: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1647419276: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419277: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419281: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1647419281: COMMAND <ipcs -q >> .trazas-2/alumno-72357116J>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+
+1647419281: COMMAND <ipcrm -Q 0x72357116 >> .trazas-2/alumno-72357116J>
+1647419281: 
+-------------------------------------------------------
+CREANDO COLA MENSAJES usando clave de acceso: 0x72357116L
+-------------------------------------------------------
+1647419281: COMMAND <ipcs -q >> .trazas-2/alumno-72357116J>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+0x72357116 0          jorge      666        0            0           
+
+1647419281: 
+------------------------------------------------------------------
+Enviando secreto <3> a través de la cola de mensajes con clave 0x72357116L
+------------------------------------------------------------------
+1647419281: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1647419281: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419282: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419284: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1647419284: COMMAND <ipcs -q >> .trazas-2/alumno-72357116J>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+0x72357116 0          jorge      666        6            1           
+
+1647419284: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1647419284: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419285: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419295: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1647419295: COMMAND <ipcs -q >> .trazas-2/alumno-72357116J>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+0x72357116 0          jorge      666        6            1           
+
+1647419295: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1647419295: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419298: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1647419298: COMMAND <ipcs -q >> .trazas-2/alumno-72357116J>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+0x72357116 0          jorge      666        6            1           
+
+1647419298: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1647419298: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419299: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419305: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647419305: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:27 /tmp/fifo_monitor_1
+1647419305: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 08:27 /tmp/fifo_monitor_2
+1647419305: 
+-------------------------------------------------------
+Existe el fifo </tmp/fifo_monitor_2>.
+Se procede a su borrado para esperar a su creación
+-------------------------------------------------------
+1647419305: COMMAND <rm -f /tmp/fifo_monitor_2>
+1647419305: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647419305: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419310: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419315: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419321: COMMAND <cp ./monitor2 /tmp/.monitor2>
+1647419321: COMMAND <cp -f /tmp/.monitor2 ./monitor2>
+1647419321: COMMAND <uname -a >> .trazas-2/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-35-generic #40~20.04.1-Ubuntu SMP Mon Mar 7 09:18:32 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1647419321: COMMAND <ifconfig 2>&1 >> .trazas-2/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.20.10.5  netmask 255.255.255.240  broadcast 172.20.10.15
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 118773  bytes 104227313 (104.2 MB)
+        RX errors 0  dropped 6474  overruns 0  frame 0
+        TX packets 41359  bytes 10941525 (10.9 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 205651
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 3836  bytes 339740 (339.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3836  bytes 339740 (339.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1647419321: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-2/alumno-72357116J>
+MACHINE-ID: 1647419321: COMMAND <cat /etc/machine-id >> .trazas-2/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1647419321: 
+La máquina está ya identificada.
+1647419321: RX: <OK Accepted>
+1647419321: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1647419321: RX: <OK>
+1647419321: 
+********************************************
+           INICIANDO SESION
+********************************************
+1647419321: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1647419321: RX: <REGISTERED>
+1647419321: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1647419321: COMMAND <cp ./client.? .trazas-2>
+1647419321: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1647419322: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-2\nput save_file-72357116J 72357116J-16-3-8h28\n" | 	  ftp -n 2>&1 > /dev/null>
+1647419323: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1647419327: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1647419327: COMMAND <ipcs -q >> .trazas-2/alumno-72357116J>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+0x72357116 0          jorge      666        6            1           
+
+1647419327: COMMAND <ipcrm -Q 0x72357116 >> .trazas-2/alumno-72357116J>
+1647419327: 
+-------------------------------------------------------
+CREANDO COLA MENSAJES usando clave de acceso: 0x72357116L
+-------------------------------------------------------
+1647419327: COMMAND <ipcs -q >> .trazas-2/alumno-72357116J>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+0x72357116 1          jorge      666        0            0           
+
+1647419328: 
+------------------------------------------------------------------
+Enviando secreto <3> a través de la cola de mensajes con clave 0x72357116L
+------------------------------------------------------------------
+1647419328: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1647419328: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419329: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419351: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419354: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647419354: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647419354: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647419354: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647419354: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:29 /tmp/fifo_monitor_1
+1647419354: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647419357: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647419357: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647419357: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419359: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419365: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647419365: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647419365: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647419365: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647419365: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:29 /tmp/fifo_monitor_1
+1647419365: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647419385: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1647419385: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419386: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419387: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419388: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419389: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419390: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419392: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419393: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419394: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647419394: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:29 /tmp/fifo_monitor_1
+1647419394: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419394: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647419394: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419399: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419404: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 08:30 /tmp/fifo_monitor_2
+1647419404: 
+-------------------------------------------------------
+ MONITOR: Abriendo el dispositivo </tmp/fifo_monitor_2> para leer.
+-------------------------------------------------------
+1647419404: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <1> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647419404: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <200>.
+********************************************[0m
+1647419407: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647419407: 
+------------------------------------------------------------------
+Enviando secreto <2> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647419407: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <2> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647419407: 
+[5m-------------------------------------------------------
+Mal formato de mensaje. Se esperaba "<999>" y ha llegado "".
+-------------------------------------------------------[0m
+1647419407: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <2> .
+
+*************************************************[0m
+1647419407: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1647419407: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419408: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419410: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647419410: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:30 /tmp/fifo_monitor_1
+1647419410: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 08:30 /tmp/fifo_monitor_2
+1647419410: 
+-------------------------------------------------------
+Existe el fifo </tmp/fifo_monitor_2>.
+Se procede a su borrado para esperar a su creación
+-------------------------------------------------------
+1647419410: COMMAND <rm -f /tmp/fifo_monitor_2>
+1647419410: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647419410: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419415: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419420: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419425: 
+-----------------------------------------------------------------------
+No se ha creado el dispositivo </tmp/fifo_monitor_2> para enviar mensajes al monitor.
+-----------------------------------------------------------------------
+1647419425: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 2.
+
+*************************************************[0m
+1647419425: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419426: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419427: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647419427: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:30 /tmp/fifo_monitor_1
+1647419427: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419427: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647419427: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419433: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419438: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419443: 
+-----------------------------------------------------------------------
+No se ha creado el dispositivo </tmp/fifo_monitor_2> para enviar mensajes al monitor.
+-----------------------------------------------------------------------
+1647419443: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 2.
+
+*************************************************[0m
+1647419443: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419444: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419445: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419446: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419447: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419448: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419449: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419450: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419451: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1647419451: COMMAND <ipcs -q >> .trazas-2/alumno-72357116J>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+0x72357116 1          jorge      666        6            1           
+
+1647419452: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1647419452: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419453: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419454: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1647419454: COMMAND <ipcs -q >> .trazas-2/alumno-72357116J>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+0x72357116 1          jorge      666        6            1           
+
+1647419454: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1647419454: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419455: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419456: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1647419456: COMMAND <ipcs -q >> .trazas-2/alumno-72357116J>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+0x72357116 1          jorge      666        6            1           
+
+1647419456: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1647419456: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419457: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1647419457: COMMAND <ipcs -q >> .trazas-2/alumno-72357116J>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+0x72357116 1          jorge      666        6            1           
+
+1647419457: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1647419457: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419458: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419618: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419619: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419621: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419631: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647419631: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:30 /tmp/fifo_monitor_1
+1647419631: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419631: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647419631: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419636: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419641: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419647: 
+-----------------------------------------------------------------------
+No se ha creado el dispositivo </tmp/fifo_monitor_2> para enviar mensajes al monitor.
+-----------------------------------------------------------------------
+1647419647: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 2.
+
+*************************************************[0m
+1647419647: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419653: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647419653: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647419653: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647419653: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647419653: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:34 /tmp/fifo_monitor_1
+1647419653: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647419654: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647419654: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647419654: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419655: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419659: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647419659: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:34 /tmp/fifo_monitor_1
+1647419659: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419659: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647419659: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419664: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647419669: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 08:34 /tmp/fifo_monitor_2
+1647419669: 
+-------------------------------------------------------
+ MONITOR: Abriendo el dispositivo </tmp/fifo_monitor_2> para leer.
+-------------------------------------------------------
+1647419669: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <1> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647419669: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <200>.
+********************************************[0m
+1647419672: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647419672: 
+------------------------------------------------------------------
+Enviando secreto <2> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647419672: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <2> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647419672: 
+[5m-------------------------------------------------------
+Mal formato de mensaje. Se esperaba "<999>" y ha llegado "".
+-------------------------------------------------------[0m
+1647419672: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <2> .
+
+*************************************************[0m
+1647419672: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1647419672: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419673: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647419679: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1647419679: COMMAND <ipcs -q >> .trazas-2/alumno-72357116J>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+0x72357116 1          jorge      666        6            1           
+
+1647419679: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1647419679: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647420498: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1647420498: COMMAND <rm -f /tmp/fifo_monitor_1>
+1647420498: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_1': No existe el archivo o el directorio
+1647420498: 
+-------------------------------------------------------
+CREANDO FIFO </tmp/fifo_monitor_1> PARA ENVIAR MENSAJE
+-------------------------------------------------------
+1647420498: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:48 /tmp/fifo_monitor_1
+1647420498: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647420499: 
+------------------------------------------------------------------
+Enviando secreto <1> a través del dispositivo </tmp/fifo_monitor_1>
+------------------------------------------------------------------
+1647420499: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1647420499: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647420500: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647420506: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1647420506: COMMAND <ls -al /tmp/fifo_monitor_1 >> .trazas-2/alumno-72357116J 2>&1>
+prw------- 1 jorge jorge 0 mar 16 08:48 /tmp/fifo_monitor_1
+1647420506: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 08:34 /tmp/fifo_monitor_2
+1647420506: 
+-------------------------------------------------------
+Existe el fifo </tmp/fifo_monitor_2>.
+Se procede a su borrado para esperar a su creación
+-------------------------------------------------------
+1647420506: COMMAND <rm -f /tmp/fifo_monitor_2>
+1647420506: 
+-------------------------------------------------------
+Esperando la creación del dispositivo </tmp/fifo_monitor_2>.
+-------------------------------------------------------
+1647420506: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647420511: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+ls: no se puede acceder a '/tmp/fifo_monitor_2': No existe el archivo o el directorio
+1647420516: COMMAND <ls -al /tmp/fifo_monitor_2 >> .trazas-2/alumno-72357116J 2>&1>
+prw-rw-r-- 1 jorge jorge 0 mar 16 08:48 /tmp/fifo_monitor_2
+1647420516: 
+-------------------------------------------------------
+ MONITOR: Abriendo el dispositivo </tmp/fifo_monitor_2> para leer.
+-------------------------------------------------------
+1647420516: 
+----------------------------------------------------------------------------------
+ Esperando 20 segundos a leer la respuesta al ejercicio <1> en el dispositivo </tmp/fifo_monitor_2>.
+----------------------------------------------------------------------------------
+1647420516: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <200>.
+********************************************[0m
+1647420519: 
+-------------------------------------------------------
+Esperando que el cliente abra el dispositivo </tmp/fifo_monitor_1> en 20 segundos
+-------------------------------------------------------
+1647420539: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1647420539: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
+1647420540: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-03-16 08:07 (:0)
+jorge    pts/1        2022-03-16 07:16 (172.20.10.2)
+jorge    pts/2        2022-03-16 07:16 (172.20.10.2)
