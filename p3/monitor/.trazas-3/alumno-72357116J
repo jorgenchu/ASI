@@ -1,0 +1,3845 @@
+1650646591: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1650646591: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1650646591: COMMAND <uname -a >> .trazas-3/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1650646591: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.51  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 7552  bytes 6419413 (6.4 MB)
+        RX errors 0  dropped 9  overruns 0  frame 0
+        TX packets 2870  bytes 511358 (511.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 14114
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 197  bytes 19098 (19.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 197  bytes 19098 (19.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1650646591: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-72357116J>
+MACHINE-ID: 1650646591: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1650646591: 
+La máquina está ya identificada.
+1650646591: RX: <OK Accepted>
+1650646596: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1650646596: RX: <OK>
+1650646596: 
+********************************************
+           INICIANDO SESION
+********************************************
+1650646596: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1650646597: RX: <REGISTERED>
+1650646597: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650646597: COMMAND <cp ./client.? .trazas-3>
+1650646597: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650646597: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-17h56\n" | 	  ftp -n 2>&1 > /dev/null>
+1650646599: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650646728: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650646728: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 13         jorge      600        524288     2          dest         
+
+1650646728: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650646728: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650646743: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650646743: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <3> .
+
+*************************************************[0m
+1650646743: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1650646743: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650646743: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650646771: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650646771: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 13         jorge      600        524288     2          dest         
+
+1650646771: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650646771: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650646786: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650646786: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <3> .
+
+*************************************************[0m
+1650646786: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1650646786: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650646786: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650646787: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650646899: INTENTO DE CONEXION DIA:22 MES:4 HORA:18:1m.
+1650646899: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650646899: COMMAND <cp ./client.? .trazas-3>
+1650646899: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650646899: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-18h01\n" | 	  ftp -n 2>&1 > /dev/null>
+1650646900: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650647148: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650647148: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 13         jorge      600        524288     2          dest         
+
+1650647148: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650647148: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647163: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650647163: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <3> .
+
+*************************************************[0m
+1650647163: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1650647163: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647163: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647165: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647199: INTENTO DE CONEXION DIA:22 MES:4 HORA:18:6m.
+1650647199: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650647199: COMMAND <cp ./client.? .trazas-3>
+1650647199: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650647199: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-18h06\n" | 	  ftp -n 2>&1 > /dev/null>
+1650647401: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650647403: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647405: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650647405: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+
+1650647405: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650647405: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647407: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650647410: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <563>.
+********************************************[0m
+1650647413: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1650647413: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647413: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647414: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647416: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650647416: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647416: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650647418: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647418: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650647420: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <12>.
+********************************************[0m
+1650647420: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1650647420: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <502>.
+********************************************[0m
+1650647420: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1650647420: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <993>.
+********************************************[0m
+1650647420: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1650647420: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <541>.
+********************************************[0m
+1650647423: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1650647423: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647423: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647424: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647425: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650647425: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647425: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650647427: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650647427: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <6> .
+
+*************************************************[0m
+1650647427: 
+[5m-------------------------------------------------------
+Valor <918> de inicialización de semáforo <0x72357116> ERRONEO
+-------------------------------------------------------[0m
+1650647427: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1650647427: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647427: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647429: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647434: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1650647434: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647434: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650647444: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650647444: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1650647444: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 4.
+
+*************************************************[0m
+1650647444: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647444: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647445: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647452: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650647452: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       0                       
+
+1650647452: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650647452: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650647452: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647454: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650647457: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <563>.
+********************************************[0m
+1650647460: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1650647460: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647461: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647462: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647467: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650647467: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647467: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650647467: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647469: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650647471: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <12>.
+********************************************[0m
+1650647471: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1650647471: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <502>.
+********************************************[0m
+1650647471: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1650647471: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <993>.
+********************************************[0m
+1650647471: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1650647471: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <541>.
+********************************************[0m
+1650647474: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1650647474: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647474: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647475: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647477: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650647477: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647477: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650647477: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650647477: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <6> .
+
+*************************************************[0m
+1650647477: 
+[5m-------------------------------------------------------
+Valor <918> de inicialización de semáforo <0x72357116> ERRONEO
+-------------------------------------------------------[0m
+1650647477: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1650647477: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647477: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647485: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650647485: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647485: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650647485: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650647485: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <6> .
+
+*************************************************[0m
+1650647485: 
+[5m-------------------------------------------------------
+Valor <918> de inicialización de semáforo <0x72357116> ERRONEO
+-------------------------------------------------------[0m
+1650647485: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1650647485: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647485: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647486: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647490: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650647490: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647490: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650647490: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650647490: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <6> .
+
+*************************************************[0m
+1650647490: 
+[5m-------------------------------------------------------
+Valor <918> de inicialización de semáforo <0x72357116> ERRONEO
+-------------------------------------------------------[0m
+1650647490: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1650647490: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647490: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647491: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647499: INTENTO DE CONEXION DIA:22 MES:4 HORA:18:11m.
+1650647499: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650647499: COMMAND <cp ./client.? .trazas-3>
+1650647499: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650647499: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-18h11\n" | 	  ftp -n 2>&1 > /dev/null>
+1650647500: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650647518: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1650647518: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1650647519: COMMAND <uname -a >> .trazas-3/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1650647519: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.51  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 17440  bytes 8523545 (8.5 MB)
+        RX errors 0  dropped 23  overruns 0  frame 0
+        TX packets 6529  bytes 3316735 (3.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 32487
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 261  bytes 26837 (26.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 261  bytes 26837 (26.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1650647519: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-72357116J>
+MACHINE-ID: 1650647519: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1650647519: 
+La máquina está ya identificada.
+1650647519: RX: <OK Accepted>
+1650647519: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1650647519: RX: <OK>
+1650647519: 
+********************************************
+           INICIANDO SESION
+********************************************
+1650647519: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1650647519: RX: <REGISTERED>
+1650647519: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650647519: COMMAND <cp ./client.? .trazas-3>
+1650647519: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650647519: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-18h11\n" | 	  ftp -n 2>&1 > /dev/null>
+1650647520: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650647523: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650647523: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       0                       
+
+1650647524: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650647524: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650647524: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647531: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650647534: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <563>.
+********************************************[0m
+1650647537: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1650647537: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647537: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647538: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647539: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650647539: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647539: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650647539: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647540: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650647542: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <12>.
+********************************************[0m
+1650647542: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1650647542: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <502>.
+********************************************[0m
+1650647542: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1650647542: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <993>.
+********************************************[0m
+1650647542: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1650647542: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <541>.
+********************************************[0m
+1650647545: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1650647545: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647545: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647546: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647550: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650647550: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647550: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650647550: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650647550: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <6> .
+
+*************************************************[0m
+1650647550: 
+[5m-------------------------------------------------------
+Valor <918> de inicialización de semáforo <0x72357116> ERRONEO
+-------------------------------------------------------[0m
+1650647550: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1650647550: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647550: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647551: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647558: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650647558: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647558: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650647558: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650647558: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <6> .
+
+*************************************************[0m
+1650647558: 
+[5m-------------------------------------------------------
+Valor <918> de inicialización de semáforo <0x72357116> ERRONEO
+-------------------------------------------------------[0m
+1650647558: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1650647558: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647558: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647560: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647570: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650647570: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       1                       
+
+1650647570: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650647570: 
+-----------------------------------------------------------------------
+Hay <1> procesos enganchados a la memoria compartida <0x72357116>.
+-----------------------------------------------------------------------
+1650647570: 
+------------------------------------------------------------------
+Matando los procesos <client>
+------------------------------------------------------------------
+1650647570: COMMAND <killall client>
+1650647570: 
+-------------------------------------------------------
+No ha sido posible crear el segmento de memoria compartida.
+REINICIAR manualmente.
+-------------------------------------------------------
+1650647570: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1650647570: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647570: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647571: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647577: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650647577: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647587: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1650647587: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1650647587: COMMAND <uname -a >> .trazas-3/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1650647587: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.51  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 17820  bytes 8597238 (8.5 MB)
+        RX errors 0  dropped 23  overruns 0  frame 0
+        TX packets 6710  bytes 3370083 (3.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 33363
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 267  bytes 27295 (27.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 267  bytes 27295 (27.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1650647587: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-72357116J>
+MACHINE-ID: 1650647587: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1650647587: 
+La máquina está ya identificada.
+1650647587: RX: <OK Accepted>
+1650647587: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1650647587: RX: <OK>
+1650647587: 
+********************************************
+           INICIANDO SESION
+********************************************
+1650647587: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1650647587: RX: <REGISTERED>
+1650647587: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650647587: COMMAND <cp ./client.? .trazas-3>
+1650647587: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650647587: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-18h13\n" | 	  ftp -n 2>&1 > /dev/null>
+1650647588: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650647599: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650647599: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       1                       
+
+1650647599: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650647599: 
+-----------------------------------------------------------------------
+Hay <1> procesos enganchados a la memoria compartida <0x72357116>.
+-----------------------------------------------------------------------
+1650647599: 
+------------------------------------------------------------------
+Matando los procesos <client>
+------------------------------------------------------------------
+1650647599: COMMAND <killall client>
+1650647600: 
+-------------------------------------------------------
+No ha sido posible crear el segmento de memoria compartida.
+REINICIAR manualmente.
+-------------------------------------------------------
+1650647600: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1650647600: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647600: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647601: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647607: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650647607: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       0                       
+
+1650647607: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650647607: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650647607: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647609: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650647612: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <563>.
+********************************************[0m
+1650647615: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1650647615: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647615: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647616: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647618: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650647618: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647618: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650647618: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647620: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650647622: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <12>.
+********************************************[0m
+1650647622: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1650647622: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <502>.
+********************************************[0m
+1650647622: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1650647622: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <993>.
+********************************************[0m
+1650647622: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1650647622: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <541>.
+********************************************[0m
+1650647625: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1650647625: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647625: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647626: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647630: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650647630: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647630: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650647630: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650647630: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <6> .
+
+*************************************************[0m
+1650647630: 
+[5m-------------------------------------------------------
+Valor <918> de inicialización de semáforo <0x72357116> ERRONEO
+-------------------------------------------------------[0m
+1650647630: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1650647630: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647630: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647711: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650647711: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       0                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650647711: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650647711: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650647711: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647712: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650647715: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <563>.
+********************************************[0m
+1650647718: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1650647718: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647718: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647719: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647720: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650647720: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647720: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650647720: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647721: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650647723: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <12>.
+********************************************[0m
+1650647723: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1650647723: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <502>.
+********************************************[0m
+1650647723: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1650647723: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <993>.
+********************************************[0m
+1650647723: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1650647723: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <541>.
+********************************************[0m
+1650647726: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1650647726: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647726: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647727: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647732: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650647732: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647732: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650647732: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650647732: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <322>.
+********************************************[0m
+1650647735: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1650647735: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647735: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647736: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647742: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1650647742: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647742: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650647752: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650647752: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1650647752: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 4.
+
+*************************************************[0m
+1650647752: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647752: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647753: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647768: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650647768: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       1                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650647768: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650647768: 
+-----------------------------------------------------------------------
+Hay <1> procesos enganchados a la memoria compartida <0x72357116>.
+-----------------------------------------------------------------------
+1650647768: 
+------------------------------------------------------------------
+Matando los procesos <client>
+------------------------------------------------------------------
+1650647768: COMMAND <killall client>
+1650647777: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1650647777: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1650647777: COMMAND <uname -a >> .trazas-3/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1650647777: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.51  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 23611  bytes 9637421 (9.6 MB)
+        RX errors 0  dropped 27  overruns 0  frame 0
+        TX packets 9547  bytes 5897769 (5.8 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 47818
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 275  bytes 27925 (27.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 275  bytes 27925 (27.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1650647777: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-72357116J>
+MACHINE-ID: 1650647777: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1650647777: 
+La máquina está ya identificada.
+1650647777: RX: <OK Accepted>
+1650647777: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1650647777: RX: <OK>
+1650647777: 
+********************************************
+           INICIANDO SESION
+********************************************
+1650647777: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1650647777: RX: <REGISTERED>
+1650647777: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650647777: COMMAND <cp ./client.? .trazas-3>
+1650647777: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650647777: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-18h16\n" | 	  ftp -n 2>&1 > /dev/null>
+1650647778: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650647781: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650647781: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       0                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650647781: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650647781: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650647781: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647788: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650647791: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <563>.
+********************************************[0m
+1650647794: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1650647794: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647794: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647796: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650647796: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647796: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650647796: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650647799: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650647801: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <12>.
+********************************************[0m
+1650647801: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1650647801: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <502>.
+********************************************[0m
+1650647801: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1650647801: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <993>.
+********************************************[0m
+1650647801: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1650647801: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <541>.
+********************************************[0m
+1650647804: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1650647804: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650647804: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647805: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647807: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650647807: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647807: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650647807: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650647807: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <322>.
+********************************************[0m
+1650647810: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1650647810: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647810: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647811: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650647814: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1650647814: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647814: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650647824: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650647824: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1650647824: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 4.
+
+*************************************************[0m
+1650647824: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650647824: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654256: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1650654256: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654256: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       0                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650654256: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650654256: 
+-------------------------------------------------------
+ Esperando 10 segundos a la operación del semáforo <0x72357116> por el proceso <client>.
+-------------------------------------------------------
+1650654259: 
+-------------------------------------------------------
+Identificada operación sobre semáforo 0x72357116.
+Esperando 5 segundos para acceso a sección crítica.
+-------------------------------------------------------
+1650654269: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650654269: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <8> .
+
+*************************************************[0m
+1650654269: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1650654269: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654269: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654269: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654291: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 6.
+
+*************************************************
+
+
+1650654291: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654291: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       1                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650654291: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650654291: 
+-----------------------------------------------------------------------
+Hay <1> procesos enganchados a la memoria compartida <0x72357116>.
+-----------------------------------------------------------------------
+1650654291: 
+------------------------------------------------------------------
+Matando los procesos <client>
+------------------------------------------------------------------
+1650654291: COMMAND <killall client>
+1650654291: 
+------------------------------------------------------------------
+Problemas al obtener acceso a semáforo con clave 0x72357116L
+------------------------------------------------------------------
+1650654291: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <10> .
+
+*************************************************[0m
+1650654291: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 6.
+
+*************************************************[0m
+1650654291: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654292: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654292: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654293: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654301: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650654301: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       2                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650654301: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650654301: 
+-----------------------------------------------------------------------
+Hay <2> procesos enganchados a la memoria compartida <0x72357116>.
+-----------------------------------------------------------------------
+1650654301: 
+------------------------------------------------------------------
+Matando los procesos <client>
+------------------------------------------------------------------
+1650654301: COMMAND <killall client>
+1650654301: 
+-------------------------------------------------------
+No ha sido posible crear el segmento de memoria compartida.
+REINICIAR manualmente.
+-------------------------------------------------------
+1650654301: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1650654301: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654301: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654302: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654306: INTENTO DE CONEXION DIA:22 MES:4 HORA:20:5m.
+1650654306: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650654306: COMMAND <cp ./client.? .trazas-3>
+1650654306: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650654306: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-20h05\n" | 	  ftp -n 2>&1 > /dev/null>
+1650654307: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650654310: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650654310: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654310: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650654310: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650654310: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650654315: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650654315: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <4> .
+
+*************************************************[0m
+1650654315: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1650654315: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654315: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654316: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654320: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650654320: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654321: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650654321: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650654321: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <6> .
+
+*************************************************[0m
+1650654321: 
+[5m-------------------------------------------------------
+Valor <0> de inicialización de semáforo <0x72357116> ERRONEO
+-------------------------------------------------------[0m
+1650654321: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1650654321: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654321: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654322: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654332: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1650654332: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654332: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650654342: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650654342: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1650654342: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 4.
+
+*************************************************[0m
+1650654342: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654342: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654344: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654350: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650654350: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       2                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650654350: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650654350: 
+-----------------------------------------------------------------------
+Hay <2> procesos enganchados a la memoria compartida <0x72357116>.
+-----------------------------------------------------------------------
+1650654350: 
+------------------------------------------------------------------
+Matando los procesos <client>
+------------------------------------------------------------------
+1650654350: COMMAND <killall client>
+1650654350: 
+-------------------------------------------------------
+No ha sido posible crear el segmento de memoria compartida.
+REINICIAR manualmente.
+-------------------------------------------------------
+1650654350: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1650654350: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654350: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654351: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654361: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650654361: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       2                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650654361: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650654361: 
+-----------------------------------------------------------------------
+Hay <2> procesos enganchados a la memoria compartida <0x72357116>.
+-----------------------------------------------------------------------
+1650654361: 
+------------------------------------------------------------------
+Matando los procesos <client>
+------------------------------------------------------------------
+1650654361: COMMAND <killall client>
+1650654361: 
+-------------------------------------------------------
+No ha sido posible crear el segmento de memoria compartida.
+REINICIAR manualmente.
+-------------------------------------------------------
+1650654361: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1650654361: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654361: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654363: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654401: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650654401: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       2                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650654401: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650654401: 
+-----------------------------------------------------------------------
+Hay <2> procesos enganchados a la memoria compartida <0x72357116>.
+-----------------------------------------------------------------------
+1650654401: 
+------------------------------------------------------------------
+Matando los procesos <client>
+------------------------------------------------------------------
+1650654401: COMMAND <killall client>
+1650654401: 
+-------------------------------------------------------
+No ha sido posible crear el segmento de memoria compartida.
+REINICIAR manualmente.
+-------------------------------------------------------
+1650654401: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1650654401: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654401: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654409: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650654409: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       2                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650654409: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650654409: 
+-----------------------------------------------------------------------
+Hay <2> procesos enganchados a la memoria compartida <0x72357116>.
+-----------------------------------------------------------------------
+1650654409: 
+------------------------------------------------------------------
+Matando los procesos <client>
+------------------------------------------------------------------
+1650654409: COMMAND <killall client>
+1650654409: 
+-------------------------------------------------------
+No ha sido posible crear el segmento de memoria compartida.
+REINICIAR manualmente.
+-------------------------------------------------------
+1650654409: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1650654409: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654409: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654410: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654424: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1650654424: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1650654424: COMMAND <uname -a >> .trazas-3/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1650654425: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.51  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 25837  bytes 10159752 (10.1 MB)
+        RX errors 0  dropped 35  overruns 0  frame 0
+        TX packets 10340  bytes 6186493 (6.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 51619
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 290  bytes 29074 (29.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 290  bytes 29074 (29.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1650654425: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-72357116J>
+MACHINE-ID: 1650654425: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1650654425: 
+La máquina está ya identificada.
+1650654425: RX: <OK Accepted>
+1650654428: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1650654428: RX: <OK>
+1650654428: 
+********************************************
+           INICIANDO SESION
+********************************************
+1650654428: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1650654428: RX: <REGISTERED>
+1650654428: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650654428: COMMAND <cp ./client.? .trazas-3>
+1650654428: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650654429: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-20h07\n" | 	  ftp -n 2>&1 > /dev/null>
+1650654429: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650654434: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650654434: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       0                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650654434: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650654434: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650654434: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650654435: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650654438: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <563>.
+********************************************[0m
+1650654441: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1650654441: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654441: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654442: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654445: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650654445: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654445: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650654445: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650654447: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650654449: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <12>.
+********************************************[0m
+1650654449: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1650654449: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <502>.
+********************************************[0m
+1650654449: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1650654449: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <993>.
+********************************************[0m
+1650654449: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1650654449: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <541>.
+********************************************[0m
+1650654452: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1650654452: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654452: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654453: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654461: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650654461: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654461: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650654461: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650654461: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <322>.
+********************************************[0m
+1650654464: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1650654464: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654464: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654478: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1650654478: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654478: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650654488: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650654488: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1650654488: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 4.
+
+*************************************************[0m
+1650654488: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654488: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654489: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654496: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1650654496: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654496: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       0                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650654496: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650654496: 
+-------------------------------------------------------
+ Esperando 10 segundos a la operación del semáforo <0x72357116> por el proceso <client>.
+-------------------------------------------------------
+1650654498: 
+-------------------------------------------------------
+Identificada operación sobre semáforo 0x72357116.
+Esperando 5 segundos para acceso a sección crítica.
+-------------------------------------------------------
+1650654509: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650654509: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <8> .
+
+*************************************************[0m
+1650654509: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1650654509: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654509: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654509: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654510: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654572: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650654572: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       1                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650654572: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650654572: 
+-----------------------------------------------------------------------
+Hay <1> procesos enganchados a la memoria compartida <0x72357116>.
+-----------------------------------------------------------------------
+1650654572: 
+------------------------------------------------------------------
+Matando los procesos <client>
+------------------------------------------------------------------
+1650654572: COMMAND <killall client>
+1650654572: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650654572: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650654575: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650654578: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <563>.
+********************************************[0m
+1650654581: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1650654581: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654581: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654624: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650654624: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654625: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650654625: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650654626: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650654628: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <12>.
+********************************************[0m
+1650654628: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1650654628: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <502>.
+********************************************[0m
+1650654628: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1650654628: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <993>.
+********************************************[0m
+1650654628: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1650654628: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <541>.
+********************************************[0m
+1650654631: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1650654631: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654631: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654632: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654634: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650654634: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654634: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650654634: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650654634: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <6> .
+
+*************************************************[0m
+1650654634: 
+[5m-------------------------------------------------------
+Valor <0> de inicialización de semáforo <0x72357116> ERRONEO
+-------------------------------------------------------[0m
+1650654634: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1650654634: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654634: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654643: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1650654643: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654643: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650654653: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650654653: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1650654653: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 4.
+
+*************************************************[0m
+1650654653: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654653: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654654: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654730: INTENTO DE CONEXION DIA:22 MES:4 HORA:20:12m.
+1650654730: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650654730: COMMAND <cp ./client.? .trazas-3>
+1650654730: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650654730: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-20h12\n" | 	  ftp -n 2>&1 > /dev/null>
+1650654732: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650654833: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1650654833: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654833: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       0                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650654833: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650654833: 
+-------------------------------------------------------
+ Esperando 10 segundos a la operación del semáforo <0x72357116> por el proceso <client>.
+-------------------------------------------------------
+1650654834: 
+-------------------------------------------------------
+Identificada operación sobre semáforo 0x72357116.
+Esperando 5 segundos para acceso a sección crítica.
+-------------------------------------------------------
+1650654844: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650654844: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <8> .
+
+*************************************************[0m
+1650654844: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1650654844: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654844: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654844: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654846: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654854: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1650654854: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654854: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 4          jorge      600        524288     2          dest         
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 8          jorge      600        524288     2          dest         
+0x00000000 19         jorge      600        524288     2          dest         
+0x00000000 23         jorge      600        524288     2          dest         
+0x00000000 25         jorge      600        4194304    2          dest         
+0x72357116 27         root       666        1024       1                       
+0x00000000 28         jorge      600        524288     2          dest         
+
+1650654854: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650654854: 
+-----------------------------------------------------------------------
+Hay <1> procesos enganchados a la memoria compartida <0x72357116>.
+-----------------------------------------------------------------------
+1650654854: 
+------------------------------------------------------------------
+Matando los procesos <client>
+------------------------------------------------------------------
+1650654854: COMMAND <killall client>
+1650654854: 
+-------------------------------------------------------
+ Esperando 10 segundos a la operación del semáforo <0x72357116> por el proceso <client>.
+-------------------------------------------------------
+1650654864: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650654864: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <8> .
+
+*************************************************[0m
+1650654864: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1650654864: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654864: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654864: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654865: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654867: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650654867: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654867: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650654867: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650654869: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650654871: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <12>.
+********************************************[0m
+1650654871: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1650654871: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <2> .
+
+*************************************************[0m
+1650654871: 
+[5m-------------------------------------------------------
+ :nok> La clave <0> recibida del ejercicio 2 NO ES CORRECTA.
+-------------------------------------------------------[0m
+1650654874: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1650654874: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650654874: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654875: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654906: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650654906: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654906: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650654906: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650654906: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <6> .
+
+*************************************************[0m
+1650654906: 
+[5m-------------------------------------------------------
+Valor <0> de inicialización de semáforo <0x72357116> ERRONEO
+-------------------------------------------------------[0m
+1650654906: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1650654906: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650654906: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654907: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 19:45 (:0)
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650654921: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1650654921: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1650654921: COMMAND <uname -a >> .trazas-3/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1650654921: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.51  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 30274  bytes 11149845 (11.1 MB)
+        RX errors 0  dropped 47  overruns 0  frame 0
+        TX packets 11928  bytes 7475092 (7.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 59624
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 306  bytes 30322 (30.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 306  bytes 30322 (30.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1650654921: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-72357116J>
+MACHINE-ID: 1650654921: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1650654921: 
+La máquina está ya identificada.
+1650654921: RX: <OK Accepted>
+1650654921: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1650654921: RX: <OK>
+1650654921: 
+********************************************
+           INICIANDO SESION
+********************************************
+1650654921: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1650654921: RX: <REGISTERED>
+1650654921: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650654922: COMMAND <cp ./client.? .trazas-3>
+1650654922: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650654922: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-20h15\n" | 	  ftp -n 2>&1 > /dev/null>
+1650654922: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650655031: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1650655031: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1650655031: COMMAND <uname -a >> .trazas-3/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1650655031: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.51  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 30923  bytes 11240329 (11.2 MB)
+        RX errors 0  dropped 49  overruns 0  frame 0
+        TX packets 12260  bytes 7546901 (7.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 61234
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 357  bytes 33155 (33.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 357  bytes 33155 (33.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1650655031: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-72357116J>
+MACHINE-ID: 1650655031: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1650655031: 
+La máquina está ya identificada.
+1650655031: RX: <OK Accepted>
+1650655031: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1650655031: RX: <OK>
+1650655031: 
+********************************************
+           INICIANDO SESION
+********************************************
+1650655031: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1650655031: RX: <REGISTERED>
+1650655031: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650655031: COMMAND <cp ./client.? .trazas-3>
+1650655031: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650655031: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-20h17\n" | 	  ftp -n 2>&1 > /dev/null>
+1650655032: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650655036: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650655036: COMMAND <cp ./client.? .trazas-3>
+1650655036: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650655036: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-20h17\n" | 	  ftp -n 2>&1 > /dev/null>
+1650655037: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650655041: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1650655041: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1650655041: COMMAND <uname -a >> .trazas-3/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1650655041: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.51  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 31025  bytes 11251399 (11.2 MB)
+        RX errors 0  dropped 49  overruns 0  frame 0
+        TX packets 12356  bytes 7592353 (7.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 61666
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 368  bytes 33980 (33.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 368  bytes 33980 (33.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1650655041: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-72357116J>
+MACHINE-ID: 1650655041: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1650655041: 
+La máquina está ya identificada.
+1650655041: RX: <OK Accepted>
+1650655041: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1650655041: RX: <OK>
+1650655041: 
+********************************************
+           INICIANDO SESION
+********************************************
+1650655041: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1650655041: RX: <REGISTERED>
+1650655041: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650655041: COMMAND <cp ./client.? .trazas-3>
+1650655041: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650655041: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-20h17\n" | 	  ftp -n 2>&1 > /dev/null>
+1650655042: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650655044: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650655044: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x72357116 27         root       666        1024       0                       
+
+1650655044: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650655044: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650655044: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650655045: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650655048: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <563>.
+********************************************[0m
+1650655051: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1650655051: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650655051: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650655052: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650655058: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650655058: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650655058: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650655058: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650655059: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650655061: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <12>.
+********************************************[0m
+1650655061: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1650655061: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <502>.
+********************************************[0m
+1650655061: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1650655061: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <993>.
+********************************************[0m
+1650655061: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1650655061: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <541>.
+********************************************[0m
+1650655064: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1650655064: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650655064: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650655067: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650655067: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655067: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650655067: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650655067: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <6> .
+
+*************************************************[0m
+1650655067: 
+[5m-------------------------------------------------------
+Valor <115> de inicialización de semáforo <0x72357116> ERRONEO
+-------------------------------------------------------[0m
+1650655067: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1650655067: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655067: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650655170: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1650655170: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1650655170: COMMAND <uname -a >> .trazas-3/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1650655170: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.51  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 31813  bytes 11404434 (11.4 MB)
+        RX errors 0  dropped 51  overruns 0  frame 0
+        TX packets 12754  bytes 7733085 (7.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 63598
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 376  bytes 34610 (34.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 376  bytes 34610 (34.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1650655170: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-72357116J>
+MACHINE-ID: 1650655170: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1650655170: 
+La máquina está ya identificada.
+1650655170: RX: <OK Accepted>
+1650655170: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1650655170: RX: <OK>
+1650655170: 
+********************************************
+           INICIANDO SESION
+********************************************
+1650655170: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1650655170: RX: <REGISTERED>
+1650655170: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650655170: COMMAND <cp ./client.? .trazas-3>
+1650655170: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650655171: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-20h19\n" | 	  ftp -n 2>&1 > /dev/null>
+1650655171: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650655180: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650655180: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x72357116 27         root       666        1024       0                       
+
+1650655188: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1650655188: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1650655188: COMMAND <uname -a >> .trazas-3/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1650655188: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.51  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 31927  bytes 11417525 (11.4 MB)
+        RX errors 0  dropped 51  overruns 0  frame 0
+        TX packets 12851  bytes 7762956 (7.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 64061
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 382  bytes 35068 (35.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 382  bytes 35068 (35.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1650655188: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-72357116J>
+MACHINE-ID: 1650655188: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1650655188: 
+La máquina está ya identificada.
+1650655188: RX: <OK Accepted>
+1650655188: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1650655188: RX: <OK>
+1650655188: 
+********************************************
+           INICIANDO SESION
+********************************************
+1650655188: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1650655188: RX: <REGISTERED>
+1650655188: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650655188: COMMAND <cp ./client.? .trazas-3>
+1650655188: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650655188: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-20h19\n" | 	  ftp -n 2>&1 > /dev/null>
+1650655189: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650655191: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650655191: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x72357116 27         root       666        1024       0                       
+
+1650655191: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x72357116
+-------------------------------------------------------
+1650655191: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650655191: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650655192: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650655195: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <563>.
+********************************************[0m
+1650655198: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1650655198: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650655198: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650655200: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650655202: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650655202: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650655202: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650655202: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650655203: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650655205: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <12>.
+********************************************[0m
+1650655205: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1650655205: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <502>.
+********************************************[0m
+1650655205: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1650655205: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <993>.
+********************************************[0m
+1650655205: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1650655205: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <541>.
+********************************************[0m
+1650655208: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1650655208: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650655208: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650655211: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650655211: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655211: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650655211: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650655211: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <322>.
+********************************************[0m
+1650655214: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1650655214: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655214: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650655222: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1650655222: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655222: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650655232: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650655232: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1650655232: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 4.
+
+*************************************************[0m
+1650655232: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655232: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    pts/2        2022-04-22 17:50 (192.168.1.35)
+jorge    pts/3        2022-04-22 17:52 (192.168.1.35)
+1650655494: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1650655494: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1650655494: COMMAND <uname -a >> .trazas-3/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1650655494: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.51  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 1764  bytes 1432708 (1.4 MB)
+        RX errors 0  dropped 2  overruns 0  frame 0
+        TX packets 966  bytes 121060 (121.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 4688
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 166  bytes 16234 (16.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 166  bytes 16234 (16.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1650655494: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-72357116J>
+MACHINE-ID: 1650655494: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1650655494: 
+La máquina está ya identificada.
+1650655494: RX: <OK Accepted>
+1650655494: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1650655494: RX: <OK>
+1650655494: 
+********************************************
+           INICIANDO SESION
+********************************************
+1650655494: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1650655495: RX: <REGISTERED>
+1650655495: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650655495: COMMAND <cp ./client.? .trazas-3>
+1650655495: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650655495: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-20h24\n" | 	  ftp -n 2>&1 > /dev/null>
+1650655495: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650655515: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1650655515: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+
+1650655515: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1650655515: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650655516: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650655519: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <563>.
+********************************************[0m
+1650655522: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1650655522: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650655522: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 22:22 (:0)
+jorge    pts/0        2022-04-22 20:23 (192.168.1.35)
+jorge    pts/1        2022-04-22 20:23 (192.168.1.35)
+1650655523: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 22:22 (:0)
+jorge    pts/0        2022-04-22 20:23 (192.168.1.35)
+jorge    pts/1        2022-04-22 20:23 (192.168.1.35)
+1650655527: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1650655527: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650655527: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1650655528: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1650655528: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1650655530: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <12>.
+********************************************[0m
+1650655530: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1650655530: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <502>.
+********************************************[0m
+1650655530: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1650655530: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <993>.
+********************************************[0m
+1650655530: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1650655530: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <541>.
+********************************************[0m
+1650655533: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1650655533: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650655533: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 22:22 (:0)
+jorge    pts/0        2022-04-22 20:23 (192.168.1.35)
+jorge    pts/1        2022-04-22 20:23 (192.168.1.35)
+1650655537: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1650655537: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655537: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650655540: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1650655540: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <322>.
+********************************************[0m
+1650655543: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1650655543: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655543: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 22:22 (:0)
+jorge    pts/0        2022-04-22 20:23 (192.168.1.35)
+jorge    pts/1        2022-04-22 20:23 (192.168.1.35)
+1650655544: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 22:22 (:0)
+jorge    pts/0        2022-04-22 20:23 (192.168.1.35)
+jorge    pts/1        2022-04-22 20:23 (192.168.1.35)
+1650655548: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1650655548: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655548: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650655551: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <7>.
+*******************************************************
+1650655551: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <55>.
+********************************************[0m
+1650655554: 
+*************************************************
+:ok> CONTEXTO del ejercicio 4 preparado.
+*************************************************
+1650655554: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655554: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 22:22 (:0)
+jorge    pts/0        2022-04-22 20:23 (192.168.1.35)
+jorge    pts/1        2022-04-22 20:23 (192.168.1.35)
+1650655558: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1650655558: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655558: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 7          jorge      600        524288     2          dest         
+
+1650655558: 
+-------------------------------------------------------
+ Esperando 10 segundos a la operación del semáforo <0x72357116> por el proceso <client>.
+-------------------------------------------------------
+1650655560: 
+-------------------------------------------------------
+Identificada operación sobre semáforo 0x72357116.
+Esperando 5 segundos para acceso a sección crítica.
+-------------------------------------------------------
+1650655571: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650655571: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <8> .
+
+*************************************************[0m
+1650655571: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1650655571: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650655571: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655571: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 22:22 (:0)
+jorge    pts/0        2022-04-22 20:23 (192.168.1.35)
+jorge    pts/1        2022-04-22 20:23 (192.168.1.35)
+1650655578: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 6.
+
+*************************************************
+
+
+1650655578: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655578: COMMAND <ipcs -m >> .trazas-3/alumno-72357116J 2>&1>
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 7          jorge      600        524288     2          dest         
+0x00000000 8          jorge      666        1024       1          dest         
+
+1650655578: 
+-------------------------------------------------------
+ Esperando 10 segundos a la operación del semáforo <0x72357116> por el proceso <client>.
+-------------------------------------------------------
+1650655581: 
+-------------------------------------------------------
+Identificada operación sobre semáforo 0x72357116.
+Esperando 5 segundos para acceso a sección crítica.
+-------------------------------------------------------
+1650655581: 
+-------------------------------------------------------
+Identificada operación sobre semáforo 0x72357116.
+Esperando 5 segundos para acceso a sección crítica.
+-------------------------------------------------------
+1650655581: 
+-------------------------------------------------------
+Identificada operación sobre semáforo 0x72357116.
+Esperando 5 segundos para acceso a sección crítica.
+-------------------------------------------------------
+1650655591: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1650655591: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <10> .
+
+*************************************************[0m
+1650655591: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 6.
+
+*************************************************[0m
+1650655591: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650655591: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655591: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 22:22 (:0)
+jorge    pts/0        2022-04-22 20:23 (192.168.1.35)
+jorge    pts/1        2022-04-22 20:23 (192.168.1.35)
+1650655637: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 7.
+
+*************************************************
+
+
+1650655637: COMMAND <ipcrm -S 0x72357116 > /dev/null 2>&1>
+1650655637: COMMAND <ipcrm -M 0x72357116 > /dev/null 2>&1>
+1650655637: 
+----------------------------------------------------------------------------------
+ Se ha creado de NUEVO el segmento de memoria. Proceder a iniciar el ejercicio.
+----------------------------------------------------------------------------------
+1650655640: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1650655640: COMMAND <ipcs >> .trazas-3/alumno-72357116J 2>&1>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 7          jorge      600        524288     2          dest         
+0x00000000 8          jorge      666        1024       1          dest         
+0x00000000 9          jorge      666        1024       1          dest         
+0x72357116 10         jorge      666        1024       0                       
+
+------ Matrices semáforo -------
+key        semid      propietario perms      nsems     
+0x72357116 4          jorge      666        1         
+
+1650655641: 
+-------------------------------------------------------
+Se dispone de 2 segundos para destruir los recursos utilizados
+-------------------------------------------------------
+1650655643: COMMAND <ipcs >> .trazas-3/alumno-72357116J 2>&1>
+
+------ Colas de mensajes -----
+key        msqid      propietario perms      bytes utilizados mensajes    
+
+---- Segmentos memoria compartida ----
+key        shmid      propietario perms      bytes      nattch     estado      
+0x00000000 5          jorge      600        524288     2          dest         
+0x00000000 7          jorge      600        524288     2          dest         
+0x00000000 8          jorge      666        1024       1          dest         
+0x00000000 9          jorge      666        1024       1          dest         
+
+------ Matrices semáforo -------
+key        semid      propietario perms      nsems     
+
+1650655643: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <12> es <76>.
+********************************************[0m
+1650655643: 
+*************************************************
+:ok> CONTEXTO del ejercicio 7 preparado.
+*************************************************
+1650655643: COMMAND <who >> .trazas-3/alumno-72357116J>
+jorge    :0           2022-04-22 22:22 (:0)
+jorge    pts/0        2022-04-22 20:23 (192.168.1.35)
+jorge    pts/1        2022-04-22 20:23 (192.168.1.35)
+1650655795: INTENTO DE CONEXION DIA:22 MES:4 HORA:20:29m.
+1650655795: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1650655796: COMMAND <cp ./client.? .trazas-3>
+1650655796: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
+1650655796: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-20h29\n" | 	  ftp -n 2>&1 > /dev/null>
+1650655797: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
