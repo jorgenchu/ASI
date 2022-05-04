@@ -3843,3 +3843,4 @@ jorge    pts/1        2022-04-22 20:23 (192.168.1.35)
 1650655796: COMMAND <tar zcf save_file-72357116J .trazas-3 > /dev/null>
 1650655796: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-3\nput save_file-72357116J 72357116J-22-4-20h29\n" | 	  ftp -n 2>&1 > /dev/null>
 1650655797: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1650656004: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
