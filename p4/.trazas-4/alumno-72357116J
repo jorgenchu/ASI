@@ -9911,3 +9911,4 @@ jorge    pts/3        2022-05-04 07:51 (172.20.10.2)
 1651651040: COMMAND <cp ./client.? .trazas-4>
 1651651040: COMMAND <tar zcf save_file-72357116J .trazas-4 > /dev/null>
 1651651041: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/practica-4\nput save_file-72357116J 72357116J-4-5-8h56\n" | 	  ftp -n 2>&1 > /dev/null>
+1651651242: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>

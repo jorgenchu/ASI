@@ -1,0 +1,2417 @@
+1652438195: COMMAND <cp ./examen2 /tmp/.examen2>
+1652438195: COMMAND <cp -f /tmp/.examen2 ./examen2>
+1652438195: COMMAND <uname -a >> .trazas-2/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652438195: COMMAND <ifconfig 2>&1 >> .trazas-2/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 85427  bytes 25028122 (25.0 MB)
+        RX errors 0  dropped 93  overruns 0  frame 0
+        TX packets 34890  bytes 30441681 (30.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 175863
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 967  bytes 103110 (103.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 967  bytes 103110 (103.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652438195: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-2/alumno-72357116J>
+MACHINE-ID: 1652438195: COMMAND <cat /etc/machine-id >> .trazas-2/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652438195: 
+La máquina está ya identificada.
+1652438195: RX: <OK Accepted>
+1652438198: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652438198: RX: <OK>
+1652438198: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652438198: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652438198: RX: <REGISTERED>
+1652438198: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652438198: COMMAND <cp ./client.? .trazas-2>
+1652438198: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652438198: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-13-5-11h36\n" | 	  ftp -n 2>&1 > /dev/null>
+1652438199: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1652438205: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652438205: COMMAND <ipcrm -Q 0x72357116 >> .trazas-2/alumno-72357116J>
+1652438205: 
+-------------------------------------------------------
+Esperando que el cliente cree la cola de mensajes <0x72357116L> en 10 segundos
+-------------------------------------------------------
+1652438215: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <1> .
+
+*************************************************[0m
+1652438215: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652438215: 
+-------------------------------------------------------
+==> Esperando la señal 10 en el proceso monitor (5333).
+
+-------------------------------------------------------
+1652438221: 
+-------------------------------------------------------
+==> Esperando la señal 10 en el proceso monitor (5333).
+
+-------------------------------------------------------
+1652438227: 
+-------------------------------------------------------
+==> Esperando la señal 10 en el proceso monitor (5333).
+
+-------------------------------------------------------
+1652438233: 
+[5mTemporización AGOTADA 
+-------------------------------------------------------
+==> Esperando la señal 10 en el proceso monitor (5333).
+
+-------------------------------------------------------
+.[0m
+1652438233: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1652438233: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652438238: 
+Recibida una señal no esperada.
+1652438243: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652438245: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652438245: COMMAND <ipcrm -Q 0x72357116 >> .trazas-2/alumno-72357116J>
+1652438245: 
+-------------------------------------------------------
+Esperando que el cliente cree la cola de mensajes <0x72357116L> en 10 segundos
+-------------------------------------------------------
+1652438247: :ok> Operación bien realizada
+
+1652438247: 
+-------------------------------------------------------
+==> Esperando la señal 10 en el proceso monitor (5333).
+
+-------------------------------------------------------
+1652438247: 
+-------------------------------------------------------
+<== Recibida la señal 10 en el proceso monitor.
+
+-------------------------------------------------------
+1652438247: COMMAND <ps u >> .trazas-2/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        890  0.0  0.1 166800  6616 tty2     Ssl+ 08:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        904  0.6  3.7 408116 151444 tty2    Sl+  08:52   1:09 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge       1036  0.0  0.3 193448 15540 tty2     Sl+  08:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       2806  0.0  0.1  13496  5284 pts/0    Ss+  09:07   0:00 bash
+jorge       2897  0.0  0.1  13632  5536 pts/1    Ss   09:08   0:01 -bash
+jorge       2969  0.0  0.1  13632  5460 pts/2    Ss   09:08   0:01 -bash
+jorge       5333  0.4  0.0   2832  2352 pts/1    S+   11:36   0:00 ./examen2
+jorge       5386  3.0  0.0   2364   512 pts/2    S+   11:37   0:00 ./client 5333
+jorge       5387  0.0  0.0   2616   528 pts/1    S+   11:37   0:00 sh -c ps u >> .trazas-2/alumno-72357116J
+jorge       5388  0.0  0.0  14192  3428 pts/1    R+   11:37   0:00 ps u
+1652438248: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652438250: COMMAND <ps u >> .trazas-2/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        890  0.0  0.1 166800  6616 tty2     Ssl+ 08:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        904  0.6  3.7 408116 151444 tty2    Sl+  08:52   1:09 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge       1036  0.0  0.3 193448 15540 tty2     Sl+  08:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       2806  0.0  0.1  13496  5284 pts/0    Ss+  09:07   0:00 bash
+jorge       2897  0.0  0.1  13632  5536 pts/1    Ss   09:08   0:01 -bash
+jorge       2969  0.0  0.1  13632  5460 pts/2    Ss   09:08   0:01 -bash
+jorge       5333  0.4  0.0   2832  2352 pts/1    S+   11:36   0:00 ./examen2
+jorge       5386  1.3  0.0   2364   512 pts/2    S+   11:37   0:00 ./client 5333
+jorge       5393  0.0  0.0   2364    76 pts/2    S+   11:37   0:00 ./client 5333
+jorge       5394  0.0  0.0   2364    76 pts/2    S+   11:37   0:00 ./client 5333
+jorge       5395  0.0  0.0   2616   596 pts/1    S+   11:37   0:00 sh -c ps u >> .trazas-2/alumno-72357116J
+jorge       5396  0.0  0.0  14192  3392 pts/1    R+   11:37   0:00 ps u
+1652438250: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652438250: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1652438250: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <852>.
+********************************************[0m
+1652438250: 
+----------------------------------------------------------------
+
+Enviando señal SIGUSR1 a procesos para solicitar mensajes Hello
+
+----------------------------------------------------------------
+1652438260: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652438260: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <2> .
+
+*************************************************[0m
+1652438260: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1652438260: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652438324: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652438324: COMMAND <ipcrm -Q 0x72357116 >> .trazas-2/alumno-72357116J>
+1652438325: 
+-------------------------------------------------------
+Esperando que el cliente cree la cola de mensajes <0x72357116L> en 10 segundos
+-------------------------------------------------------
+1652438326: :ok> Operación bien realizada
+
+1652438326: 
+-------------------------------------------------------
+==> Esperando la señal 10 en el proceso monitor (5333).
+
+-------------------------------------------------------
+1652438326: 
+-------------------------------------------------------
+<== Recibida la señal 10 en el proceso monitor.
+
+-------------------------------------------------------
+1652438326: COMMAND <ps u >> .trazas-2/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        890  0.0  0.1 166800  6616 tty2     Ssl+ 08:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        904  0.6  3.7 408116 151444 tty2    Sl+  08:52   1:09 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge       1036  0.0  0.3 193448 15540 tty2     Sl+  08:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       2806  0.0  0.1  13496  5284 pts/0    Ss+  09:07   0:00 bash
+jorge       2897  0.0  0.1  13632  5536 pts/1    Ss   09:08   0:01 -bash
+jorge       2969  0.0  0.1  13632  5460 pts/2    Ss   09:08   0:02 -bash
+jorge       5333  0.2  0.0   2832  2352 pts/1    S+   11:36   0:00 ./examen2
+jorge       5414  3.0  0.0   2364   572 pts/2    S+   11:38   0:00 ./client 5333
+jorge       5415  0.0  0.0   2616   528 pts/1    S+   11:38   0:00 sh -c ps u >> .trazas-2/alumno-72357116J
+jorge       5416  0.0  0.0  14192  3500 pts/1    R+   11:38   0:00 ps u
+1652438326: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652438329: COMMAND <ps u >> .trazas-2/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        890  0.0  0.1 166800  6616 tty2     Ssl+ 08:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        904  0.6  3.7 408116 151444 tty2    Sl+  08:52   1:09 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge       1036  0.0  0.3 193448 15540 tty2     Sl+  08:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       2806  0.0  0.1  13496  5284 pts/0    Ss+  09:07   0:00 bash
+jorge       2897  0.0  0.1  13632  5536 pts/1    Ss   09:08   0:01 -bash
+jorge       2969  0.0  0.1  13632  5460 pts/2    Ss   09:08   0:02 -bash
+jorge       5333  0.2  0.0   2832  2352 pts/1    S+   11:36   0:00 ./examen2
+jorge       5414  1.3  0.0   2364   572 pts/2    S+   11:38   0:00 ./client 5333
+jorge       5421  0.0  0.0   2364    72 pts/2    S+   11:38   0:00 ./client 5333
+jorge       5422  0.0  0.0   2364    72 pts/2    S+   11:38   0:00 ./client 5333
+jorge       5423  0.0  0.0   2616   596 pts/1    S+   11:38   0:00 sh -c ps u >> .trazas-2/alumno-72357116J
+jorge       5424  0.0  0.0  14192  3480 pts/1    R+   11:38   0:00 ps u
+1652438329: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652438329: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1652438329: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <852>.
+********************************************[0m
+1652438329: 
+----------------------------------------------------------------
+
+Enviando señal SIGUSR1 a procesos para solicitar mensajes Hello
+
+----------------------------------------------------------------
+1652438339: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652438339: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <2> .
+
+*************************************************[0m
+1652438339: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1652438339: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652438340: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652438377: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652438377: COMMAND <ipcrm -Q 0x72357116 >> .trazas-2/alumno-72357116J>
+1652438377: 
+-------------------------------------------------------
+Esperando que el cliente cree la cola de mensajes <0x72357116L> en 10 segundos
+-------------------------------------------------------
+1652438387: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <1> .
+
+*************************************************[0m
+1652438387: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652438387: 
+-------------------------------------------------------
+==> Esperando la señal 10 en el proceso monitor (5333).
+
+-------------------------------------------------------
+1652438388: 
+-------------------------------------------------------
+<== Recibida la señal 10 en el proceso monitor.
+
+-------------------------------------------------------
+1652438388: COMMAND <ps u >> .trazas-2/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        890  0.0  0.1 166800  6616 tty2     Ssl+ 08:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        904  0.6  3.7 408116 151444 tty2    Sl+  08:52   1:09 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge       1036  0.0  0.3 193448 15540 tty2     Sl+  08:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       2806  0.0  0.1  13496  5284 pts/0    Ss+  09:07   0:00 bash
+jorge       2897  0.0  0.1  13632  5536 pts/1    Ss   09:08   0:01 -bash
+jorge       2969  0.0  0.1  13632  5460 pts/2    Ss   09:08   0:02 -bash
+jorge       5333  0.1  0.0   2832  2352 pts/1    S+   11:36   0:00 ./examen2
+jorge       5442  3.0  0.0   2364   580 pts/2    S+   11:39   0:00 ./client 5333
+jorge       5443  0.0  0.0   2616   528 pts/1    S+   11:39   0:00 sh -c ps u >> .trazas-2/alumno-72357116J
+jorge       5444  0.0  0.0  14192  3440 pts/1    R+   11:39   0:00 ps u
+1652438389: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652438389: 
+-------------------------------------------------------
+Esperando que el cliente cree la cola de mensajes <0x72357116L> en 305777120 segundos
+-------------------------------------------------------
+1652438389: :ok> Operación bien realizada
+
+1652438391: COMMAND <ps u >> .trazas-2/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        890  0.0  0.1 166800  6616 tty2     Ssl+ 08:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        904  0.6  3.7 408116 151444 tty2    Sl+  08:52   1:09 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge       1036  0.0  0.3 193448 15540 tty2     Sl+  08:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       2806  0.0  0.1  13496  5284 pts/0    Ss+  09:07   0:00 bash
+jorge       2897  0.0  0.1  13632  5536 pts/1    Ss   09:08   0:01 -bash
+jorge       2969  0.0  0.1  13632  5460 pts/2    Ss   09:08   0:02 -bash
+jorge       5333  0.1  0.0   2832  2352 pts/1    S+   11:36   0:00 ./examen2
+jorge       5442  1.0  0.0   2364   580 pts/2    S+   11:39   0:00 ./client 5333
+jorge       5449  144  0.0   2364    76 pts/2    R+   11:39   0:01 ./client 5333
+jorge       5450  144  0.0   2364    76 pts/2    R+   11:39   0:01 ./client 5333
+jorge       5451  0.0  0.0   2616   600 pts/1    S+   11:39   0:00 sh -c ps u >> .trazas-2/alumno-72357116J
+jorge       5452  0.0  0.0  14192  3508 pts/1    R+   11:39   0:00 ps u
+1652438391: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652438391: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1652438391: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <852>.
+********************************************[0m
+1652438391: 
+----------------------------------------------------------------
+
+Enviando señal SIGUSR1 a procesos para solicitar mensajes Hello
+
+----------------------------------------------------------------
+1652438401: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652438401: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <2> .
+
+*************************************************[0m
+1652438401: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1652438401: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652438402: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652439112: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652439112: COMMAND <ipcrm -Q 0x72357116 >> .trazas-2/alumno-72357116J>
+1652439112: 
+-------------------------------------------------------
+Esperando que el cliente cree la cola de mensajes <0x72357116L> en 10 segundos
+-------------------------------------------------------
+1652439113: :ok> Operación bien realizada
+
+1652439113: 
+-------------------------------------------------------
+==> Esperando la señal 10 en el proceso monitor (5333).
+
+-------------------------------------------------------
+1652439114: 
+-------------------------------------------------------
+<== Recibida la señal 10 en el proceso monitor.
+
+-------------------------------------------------------
+1652439114: COMMAND <ps u >> .trazas-2/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        890  0.0  0.1 166800  6616 tty2     Ssl+ 08:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        904  0.6  3.7 408116 151444 tty2    Sl+  08:52   1:09 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge       1036  0.0  0.3 193448 15540 tty2     Sl+  08:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       2806  0.0  0.1  13496  5284 pts/0    Ss+  09:07   0:00 bash
+jorge       2897  0.0  0.1  13632  5536 pts/1    Ss   09:08   0:01 -bash
+jorge       2969  0.0  0.1  13632  5460 pts/2    Ss   09:08   0:02 -bash
+jorge       5333  0.0  0.0   2832  2352 pts/1    S+   11:36   0:00 ./examen2
+jorge       5971  3.0  0.0   2364   512 pts/2    S+   11:51   0:00 ./client 5333
+jorge       5972  0.0  0.0   2616   532 pts/1    S+   11:51   0:00 sh -c ps u >> .trazas-2/alumno-72357116J
+jorge       5973  0.0  0.0  14192  3472 pts/1    R+   11:51   0:00 ps u
+1652439114: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652439116: COMMAND <ps u >> .trazas-2/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        890  0.0  0.1 166800  6616 tty2     Ssl+ 08:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        904  0.6  3.7 408116 151444 tty2    Sl+  08:52   1:09 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge       1036  0.0  0.3 193448 15540 tty2     Sl+  08:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       2806  0.0  0.1  13496  5284 pts/0    Ss+  09:07   0:00 bash
+jorge       2897  0.0  0.1  13632  5536 pts/1    Ss   09:08   0:01 -bash
+jorge       2969  0.0  0.1  13632  5460 pts/2    Ss   09:08   0:02 -bash
+jorge       5333  0.0  0.0   2832  2352 pts/1    S+   11:36   0:00 ./examen2
+jorge       5971  1.0  0.0   2364   512 pts/2    S+   11:51   0:00 ./client 5333
+jorge       5978  0.0  0.0   2364    72 pts/2    S+   11:51   0:00 ./client 5333
+jorge       5979  0.0  0.0   2364    72 pts/2    S+   11:51   0:00 ./client 5333
+jorge       5980  4.0  0.0   2616   532 pts/1    S+   11:51   0:00 sh -c ps u >> .trazas-2/alumno-72357116J
+jorge       5981  0.0  0.0  14192  3408 pts/1    R+   11:51   0:00 ps u
+1652439116: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652439116: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1652439116: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <852>.
+********************************************[0m
+1652439116: 
+----------------------------------------------------------------
+
+Enviando señal SIGUSR1 a procesos para solicitar mensajes Hello
+
+----------------------------------------------------------------
+1652439116: RECIBIDO MENSAJE: "H<5971>".
+1652439116: 
+-------------------------------------------------------
+Mensaje de Bienvenida recibido del proceso 5971
+-------------------------------------------------------
+1652439116: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <937>.
+********************************************[0m
+1652439116: RECIBIDO MENSAJE: "H<5979>".
+1652439116: 
+-------------------------------------------------------
+Mensaje de Bienvenida recibido del proceso 5979
+-------------------------------------------------------
+1652439116: RECIBIDO MENSAJE: "H<5978>".
+1652439116: 
+-------------------------------------------------------
+Mensaje de Bienvenida recibido del proceso 5978
+-------------------------------------------------------
+1652439116: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <370>.
+********************************************[0m
+1652439116: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1652439116: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652439420: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652439420: COMMAND <ipcrm -Q 0x72357116 >> .trazas-2/alumno-72357116J>
+1652439421: 
+-------------------------------------------------------
+Esperando que el cliente cree la cola de mensajes <0x72357116L> en 10 segundos
+-------------------------------------------------------
+1652439422: :ok> Operación bien realizada
+
+1652439422: 
+-------------------------------------------------------
+==> Esperando la señal 10 en el proceso monitor (5333).
+
+-------------------------------------------------------
+1652439422: 
+-------------------------------------------------------
+<== Recibida la señal 10 en el proceso monitor.
+
+-------------------------------------------------------
+1652439422: COMMAND <ps u >> .trazas-2/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        890  0.0  0.1 166800  6616 tty2     Ssl+ 08:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        904  0.6  3.7 408116 151444 tty2    Sl+  08:52   1:09 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge       1036  0.0  0.3 193448 15540 tty2     Sl+  08:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       2806  0.0  0.1  13496  5284 pts/0    Ss+  09:07   0:00 bash
+jorge       2897  0.0  0.1  13632  5536 pts/1    Ss   09:08   0:01 -bash
+jorge       2969  0.0  0.1  13632  5460 pts/2    Ss   09:08   0:02 -bash
+jorge       5333  0.0  0.0   2832  2352 pts/1    S+   11:36   0:00 ./examen2
+jorge       6003  3.0  0.0   2364   508 pts/2    S+   11:57   0:00 ./client 5333
+jorge       6004  0.0  0.0   2616   592 pts/1    S+   11:57   0:00 sh -c ps u >> .trazas-2/alumno-72357116J
+jorge       6005  0.0  0.0  14192  3512 pts/1    R+   11:57   0:00 ps u
+1652439423: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652439425: COMMAND <ps u >> .trazas-2/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        890  0.0  0.1 166800  6616 tty2     Ssl+ 08:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        904  0.6  3.7 408116 151444 tty2    Sl+  08:52   1:09 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge       1036  0.0  0.3 193448 15540 tty2     Sl+  08:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       2806  0.0  0.1  13496  5284 pts/0    Ss+  09:07   0:00 bash
+jorge       2897  0.0  0.1  13632  5536 pts/1    Ss   09:08   0:01 -bash
+jorge       2969  0.0  0.1  13632  5460 pts/2    Ss   09:08   0:02 -bash
+jorge       5333  0.0  0.0   2832  2352 pts/1    S+   11:36   0:00 ./examen2
+jorge       6003  1.3  0.0   2364   508 pts/2    S+   11:57   0:00 ./client 5333
+jorge       6010  0.0  0.0   2364    72 pts/2    S+   11:57   0:00 ./client 5333
+jorge       6011  0.0  0.0   2364    72 pts/2    S+   11:57   0:00 ./client 5333
+jorge       6012  0.0  0.0   2616   596 pts/1    S+   11:57   0:00 sh -c ps u >> .trazas-2/alumno-72357116J
+jorge       6013  0.0  0.0  14192  3500 pts/1    R+   11:57   0:00 ps u
+1652439425: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652439425: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1652439425: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <852>.
+********************************************[0m
+1652439425: 
+----------------------------------------------------------------
+
+Enviando señal SIGUSR1 a procesos para solicitar mensajes Hello
+
+----------------------------------------------------------------
+1652439425: RECIBIDO MENSAJE: "H<6003>".
+1652439425: 
+-------------------------------------------------------
+Mensaje de Bienvenida recibido del proceso 6003
+-------------------------------------------------------
+1652439425: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <937>.
+********************************************[0m
+1652439425: RECIBIDO MENSAJE: "H<6011>".
+1652439425: 
+-------------------------------------------------------
+Mensaje de Bienvenida recibido del proceso 6011
+-------------------------------------------------------
+1652439425: RECIBIDO MENSAJE: "H<6010>".
+1652439425: 
+-------------------------------------------------------
+Mensaje de Bienvenida recibido del proceso 6010
+-------------------------------------------------------
+1652439425: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <370>.
+********************************************[0m
+1652439425: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1652439425: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652440431: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652440431: COMMAND <ipcrm -Q 0x72357116 >> .trazas-2/alumno-72357116J>
+1652440431: 
+-------------------------------------------------------
+Esperando que el cliente cree la cola de mensajes <0x72357116L> en 10 segundos
+-------------------------------------------------------
+1652440432: :ok> Operación bien realizada
+
+1652440432: 
+-------------------------------------------------------
+==> Esperando la señal 10 en el proceso monitor (5333).
+
+-------------------------------------------------------
+1652440433: 
+-------------------------------------------------------
+<== Recibida la señal 10 en el proceso monitor.
+
+-------------------------------------------------------
+1652440433: COMMAND <ps u >> .trazas-2/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        890  0.0  0.1 166800  6616 tty2     Ssl+ 08:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        904  0.5  3.7 408116 151444 tty2    Sl+  08:52   1:10 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge       1036  0.0  0.3 193448 15540 tty2     Sl+  08:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       2806  0.0  0.1  13496  5284 pts/0    Ss+  09:07   0:00 bash
+jorge       2897  0.0  0.1  13632  5536 pts/1    Ss   09:08   0:01 -bash
+jorge       2969  0.0  0.1  13632  5460 pts/2    Ss   09:08   0:02 -bash
+jorge       5333  0.0  0.0   2832  2352 pts/1    S+   11:36   0:00 ./examen2
+jorge       6099  3.0  0.0   2364   576 pts/2    S+   12:13   0:00 ./client 5333
+jorge       6100  0.0  0.0   2616   592 pts/1    S+   12:13   0:00 sh -c ps u >> .trazas-2/alumno-72357116J
+jorge       6101  0.0  0.0  14192  3636 pts/1    R+   12:13   0:00 ps u
+1652440433: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652440435: COMMAND <ps u >> .trazas-2/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        890  0.0  0.1 166800  6616 tty2     Ssl+ 08:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        904  0.5  3.7 408116 151444 tty2    Sl+  08:52   1:10 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge       1036  0.0  0.3 193448 15540 tty2     Sl+  08:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       2806  0.0  0.1  13496  5284 pts/0    Ss+  09:07   0:00 bash
+jorge       2897  0.0  0.1  13632  5536 pts/1    Ss   09:08   0:01 -bash
+jorge       2969  0.0  0.1  13632  5460 pts/2    Ss   09:08   0:02 -bash
+jorge       5333  0.0  0.0   2832  2352 pts/1    S+   11:36   0:00 ./examen2
+jorge       6099  1.3  0.0   2364   576 pts/2    S+   12:13   0:00 ./client 5333
+jorge       6106  0.0  0.0   2364    72 pts/2    S+   12:13   0:00 ./client 5333
+jorge       6107  0.0  0.0   2364    72 pts/2    S+   12:13   0:00 ./client 5333
+jorge       6108  0.0  0.0   2616   596 pts/1    S+   12:13   0:00 sh -c ps u >> .trazas-2/alumno-72357116J
+jorge       6109  0.0  0.0  14192  3484 pts/1    R+   12:13   0:00 ps u
+1652440435: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652440435: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1652440435: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <852>.
+********************************************[0m
+1652440435: 
+----------------------------------------------------------------
+
+Enviando señal SIGUSR1 a procesos para solicitar mensajes Hello
+
+----------------------------------------------------------------
+1652440435: RECIBIDO MENSAJE: "H<6099>".
+1652440435: 
+-------------------------------------------------------
+Mensaje de Bienvenida recibido del proceso 6099
+-------------------------------------------------------
+1652440435: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <937>.
+********************************************[0m
+1652440435: RECIBIDO MENSAJE: "H<6107>".
+1652440435: 
+-------------------------------------------------------
+Mensaje de Bienvenida recibido del proceso 6107
+-------------------------------------------------------
+1652440435: RECIBIDO MENSAJE: "H<6106>".
+1652440435: 
+-------------------------------------------------------
+Mensaje de Bienvenida recibido del proceso 6106
+-------------------------------------------------------
+1652440435: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <370>.
+********************************************[0m
+1652440435: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1652440435: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652440440: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1652440440: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652440441: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <4> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652440441: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652440441: RECIBIDO MENSAJE: "e<6106><975>".
+1652440441: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <975>.
+********************************************[0m
+1652440441: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <5> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652440441: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652440451: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652440451: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <5> .
+
+*************************************************[0m
+1652440451: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1652440451: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652440654: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1652440654: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652440654: 
+------------------------------------------------------------------
+Número de procesos cliente erróneo (0). Deben estar activos tres procesos.
+------------------------------------------------------------------
+1652440654: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 2.
+
+*************************************************[0m
+1652440654: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652440655: 
+Recibida una señal no esperada.
+1652440660: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1652440660: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652440660: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <4> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652440660: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652440660: RECIBIDO MENSAJE: "e<6150><975>".
+1652440660: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <975>.
+********************************************[0m
+1652440660: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <5> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652440660: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652440660: RECIBIDO MENSAJE: "e<6149><765>".
+1652440660: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <624>.
+********************************************[0m
+1652440660: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652440660: RECIBIDO MENSAJE: "e<6151><606>".
+1652440660: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <229>.
+********************************************[0m
+1652440660: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1652440660: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652440661: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441487: 
+Recibida una señal no esperada.
+1652441606: 
+Recibida una señal no esperada.
+1652441608: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1652441608: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652441609: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652441619: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652441619: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1652441619: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 3.
+
+*************************************************[0m
+1652441619: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441620: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441624: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1652441624: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652441624: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <4> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652441624: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652441624: RECIBIDO MENSAJE: "e<6266><975>".
+1652441624: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <975>.
+********************************************[0m
+1652441624: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <5> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652441624: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652441624: RECIBIDO MENSAJE: "e<6265><707>".
+1652441624: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <624>.
+********************************************[0m
+1652441624: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652441624: RECIBIDO MENSAJE: "e<6267><804>".
+1652441624: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <229>.
+********************************************[0m
+1652441624: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1652441624: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441625: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441627: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1652441627: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652441627: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652441637: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652441637: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1652441637: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 3.
+
+*************************************************[0m
+1652441637: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441790: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1652441790: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652441790: 
+------------------------------------------------------------------
+Número de procesos cliente erróneo (0). Deben estar activos tres procesos.
+------------------------------------------------------------------
+1652441790: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1652441790: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 3.
+
+*************************************************[0m
+1652441790: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441792: 
+Recibida una señal no esperada.
+1652441794: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1652441794: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652441794: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652441804: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652441804: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1652441804: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 3.
+
+*************************************************[0m
+1652441804: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441805: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441814: 
+Recibida una señal no esperada.
+1652441816: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1652441816: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652441817: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <4> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652441817: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652441817: RECIBIDO MENSAJE: "e<6327><975>".
+1652441817: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <975>.
+********************************************[0m
+1652441817: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <5> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652441817: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652441817: RECIBIDO MENSAJE: "e<6326><313>".
+1652441817: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <624>.
+********************************************[0m
+1652441817: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652441817: RECIBIDO MENSAJE: "e<6328><466>".
+1652441817: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <229>.
+********************************************[0m
+1652441817: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1652441817: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441818: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441819: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1652441819: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652441819: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652441829: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652441829: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1652441829: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 3.
+
+*************************************************[0m
+1652441829: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441830: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441831: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1652441831: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652441831: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652441841: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652441841: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1652441841: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 3.
+
+*************************************************[0m
+1652441841: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441962: 
+Recibida una señal no esperada.
+1652441964: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1652441964: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652441964: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652441964: :ok> Operación bien realizada
+
+1652441964: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652441964: :ok> Operación bien realizada
+
+1652441964: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652441964: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <9> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652441964: 
+-------------------------------------------------------
+Mandando PETICION <R>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652441974: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652441974: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1652441974: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441975: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652441989: 
+Recibida una señal no esperada.
+1652441991: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1652441991: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652441991: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652441991: :ok> Operación bien realizada
+
+1652441991: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652441991: :ok> Operación bien realizada
+
+1652441991: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652441991: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <9> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652441991: 
+-------------------------------------------------------
+Mandando PETICION <R>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652442001: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652442001: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1652442001: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652442522: 
+Recibida una señal no esperada.
+1652442524: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1652442524: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652442524: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <4> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652442524: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652442524: RECIBIDO MENSAJE: "e<6419><975>".
+1652442524: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <975>.
+********************************************[0m
+1652442524: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <5> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652442524: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652442524: RECIBIDO MENSAJE: "e<6418><789>".
+1652442524: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <624>.
+********************************************[0m
+1652442524: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652442524: RECIBIDO MENSAJE: "e<6420><478>".
+1652442524: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <229>.
+********************************************[0m
+1652442524: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1652442524: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652442526: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1652442526: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652442526: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652442526: :ok> Operación bien realizada
+
+1652442526: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652442526: :ok> Operación bien realizada
+
+1652442526: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652442526: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <9> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652442526: 
+-------------------------------------------------------
+Mandando PETICION <R>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652442526: RECIBIDO MENSAJE: "r<6420><732>".
+1652442526: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <8>.
+*******************************************************
+1652442526: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <8> es <915>.
+********************************************[0m
+1652442526: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <9>.
+*******************************************************
+1652442526: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <9> es <732>.
+********************************************[0m
+1652442526: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <10>.
+*******************************************************
+1652442526: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <10> .
+
+*************************************************[0m
+1652442526: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1652442526: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652442528: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652442612: 
+Recibida una señal no esperada.
+1652442616: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1652442616: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652442616: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652442616: :ok> Operación bien realizada
+
+1652442616: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652442616: :ok> Operación bien realizada
+
+1652442616: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652442616: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <9> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652442616: 
+-------------------------------------------------------
+Mandando PETICION <R>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652442616: RECIBIDO MENSAJE: "r<6442><732>".
+1652442616: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <8>.
+*******************************************************
+1652442616: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <8> es <915>.
+********************************************[0m
+1652442616: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <9>.
+*******************************************************
+1652442616: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <9> es <732>.
+********************************************[0m
+1652442616: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <10>.
+*******************************************************
+1652442616: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <10> es <625>.
+********************************************[0m
+1652442616: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1652442616: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652442617: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652442704: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1652442704: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652442704: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652442704: :ok> Operación bien realizada
+
+1652442704: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652442704: :ok> Operación bien realizada
+
+1652442704: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652442704: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <11> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652442704: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652442704: RECIBIDO MENSAJE: "e<6443><730>".
+1652442704: 
+-------------------------------------------------------
+Mandando PETICION <E>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652442704: RECIBIDO MENSAJE: "e<6441><427>".
+1652442704: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <11> es <778>.
+********************************************[0m
+1652442704: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <12> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652442704: 
+-------------------------------------------------------
+Mandando PETICION <R>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652442704: RECIBIDO MENSAJE: "r<6442><280>".
+1652442704: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <10> es <625>.
+********************************************[0m
+1652442704: 
+-------------------------------------------------------
+Mandando PETICION <R>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652442704: RECIBIDO MENSAJE: "r<6441><449>".
+1652442704: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <12>.
+*******************************************************
+1652442704: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <12> es <343>.
+********************************************[0m
+1652442704: 
+*************************************************
+:ok> CONTEXTO del ejercicio 4 preparado.
+*************************************************
+1652442704: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652444755: 
+Recibida una señal no esperada.
+1652444757: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652444757: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652444757: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652444757: :ok> Operación bien realizada
+
+1652444757: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652444757: :ok> Operación bien realizada
+
+1652444757: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652444757: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1652444757: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <13> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652444757: 
+-------------------------------------------------------
+Mandando PETICION <+>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652444767: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652444767: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <13> .
+
+*************************************************[0m
+1652444767: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <14> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652444767: 
+-------------------------------------------------------
+Mandando PETICION <*>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652444770: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652444770: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <14> .
+
+*************************************************[0m
+1652444770: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1652444770: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652444852: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652444852: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652444852: 
+------------------------------------------------------------------
+Número de procesos cliente erróneo (0). Deben estar activos tres procesos.
+------------------------------------------------------------------
+1652444852: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1652444852: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 5.
+
+*************************************************[0m
+1652444852: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652444858: 
+Recibida una señal no esperada.
+1652444862: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652444862: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652444862: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652444862: :ok> Operación bien realizada
+
+1652444862: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652444862: :ok> Operación bien realizada
+
+1652444862: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652444862: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1652444862: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <13> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652444862: 
+-------------------------------------------------------
+Mandando PETICION <+>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652444862: RECIBIDO MENSAJE: "r<6627><0>".
+1652444862: 
+[5m-------------------------------------------------------
+Mal formato de mensaje. Se esperaba "+<9999><888>".
+-------------------------------------------------------[0m
+1652444862: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <13> .
+
+*************************************************[0m
+1652444862: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <14> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652444862: 
+-------------------------------------------------------
+Mandando PETICION <*>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652444865: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652444865: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <14> .
+
+*************************************************[0m
+1652444865: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1652444865: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652444890: 
+Recibida una señal no esperada.
+1652444892: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652444892: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652444892: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652444892: :ok> Operación bien realizada
+
+1652444892: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652444892: :ok> Operación bien realizada
+
+1652444892: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652444892: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1652444892: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <13> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652444892: 
+-------------------------------------------------------
+Mandando PETICION <+>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652444892: RECIBIDO MENSAJE: "+<6650><0>".
+1652444892: Datos recibidos no adecuados1652444892: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <13> .
+
+*************************************************[0m
+1652444892: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <14> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652444892: 
+-------------------------------------------------------
+Mandando PETICION <*>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652444895: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652444895: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <14> .
+
+*************************************************[0m
+1652444895: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1652444895: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652445034: 
+Recibida una señal no esperada.
+1652445036: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652445036: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652445037: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652445037: :ok> Operación bien realizada
+
+1652445037: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652445037: :ok> Operación bien realizada
+
+1652445037: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652445037: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1652445037: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <13> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652445037: 
+-------------------------------------------------------
+Mandando PETICION <+>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652445037: RECIBIDO MENSAJE: "+<6668><1119>".
+1652445037: Datos recibidos no adecuados1652445037: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <13> .
+
+*************************************************[0m
+1652445037: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <14> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652445037: 
+-------------------------------------------------------
+Mandando PETICION <*>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652445040: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652445040: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <14> .
+
+*************************************************[0m
+1652445040: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1652445040: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652445345: 
+Recibida una señal no esperada.
+1652445349: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652445349: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652445349: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652445349: :ok> Operación bien realizada
+
+1652445349: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652445349: :ok> Operación bien realizada
+
+1652445349: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652445349: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1652445349: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <13> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652445349: 
+-------------------------------------------------------
+Mandando PETICION <+>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652445349: RECIBIDO MENSAJE: "+<6708><1289>".
+1652445349: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <13> es <632>.
+********************************************[0m
+1652445349: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <14> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652445349: 
+-------------------------------------------------------
+Mandando PETICION <*>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652445352: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652445352: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <14> .
+
+*************************************************[0m
+1652445352: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1652445352: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652445353: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652445972: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652445972: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652445973: 
+------------------------------------------------------------------
+Número de procesos cliente erróneo (0). Deben estar activos tres procesos.
+------------------------------------------------------------------
+1652445973: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <7> .
+
+*************************************************[0m
+1652445973: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 5.
+
+*************************************************[0m
+1652445973: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652445975: 
+Recibida una señal no esperada.
+1652445978: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652445978: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652445978: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652445978: :ok> Operación bien realizada
+
+1652445978: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652445978: :ok> Operación bien realizada
+
+1652445978: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652445978: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x72357116> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1652445978: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <13> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652445978: 
+-------------------------------------------------------
+Mandando PETICION <+>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652445978: RECIBIDO MENSAJE: "+<6796><1269>".
+1652445978: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <13> es <632>.
+********************************************[0m
+1652445978: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <14> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652445978: 
+-------------------------------------------------------
+Mandando PETICION <*>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652445991: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652445991: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <14> .
+
+*************************************************[0m
+1652445991: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1652445991: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652446182: 
+Recibida una señal no esperada.
+1652446185: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652446185: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652446185: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652446185: :ok> Operación bien realizada
+
+1652446185: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652446185: :ok> Operación bien realizada
+
+1652446185: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652446185: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <13> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652446185: 
+-------------------------------------------------------
+Mandando PETICION <+>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652446185: RECIBIDO MENSAJE: "+<6818><665>".
+1652446185: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <13> es <632>.
+********************************************[0m
+1652446185: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <14> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652446185: 
+-------------------------------------------------------
+Mandando PETICION <*>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652446198: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652446198: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <14> .
+
+*************************************************[0m
+1652446198: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1652446198: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652446199: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652446311: 
+Recibida una señal no esperada.
+1652446314: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652446314: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652446314: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652446314: :ok> Operación bien realizada
+
+1652446314: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652446314: :ok> Operación bien realizada
+
+1652446314: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652446314: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <13> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652446314: 
+-------------------------------------------------------
+Mandando PETICION <+>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652446314: RECIBIDO MENSAJE: "+<6842><485>".
+1652446314: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <13> es <632>.
+********************************************[0m
+1652446314: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <14> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652446314: 
+-------------------------------------------------------
+Mandando PETICION <*>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652446327: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652446327: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <14> .
+
+*************************************************[0m
+1652446327: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1652446327: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652446481: 
+Recibida una señal no esperada.
+1652446485: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652446485: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652446485: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652446485: :ok> Operación bien realizada
+
+1652446485: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652446485: :ok> Operación bien realizada
+
+1652446485: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652446485: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <13> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652446485: 
+-------------------------------------------------------
+Mandando PETICION <+>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652446485: RECIBIDO MENSAJE: "+<6861><321>".
+1652446485: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <13> es <632>.
+********************************************[0m
+1652446485: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <14> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652446485: 
+-------------------------------------------------------
+Mandando PETICION <*>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652446498: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652446498: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <14> .
+
+*************************************************[0m
+1652446498: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1652446498: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652446499: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652446499: 
+Recibida una señal no esperada.
+1652446501: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652446501: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652446502: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652446502: :ok> Operación bien realizada
+
+1652446502: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652446502: :ok> Operación bien realizada
+
+1652446502: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652446502: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <13> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652446502: 
+-------------------------------------------------------
+Mandando PETICION <+>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652446502: RECIBIDO MENSAJE: "+<6880><1797>".
+1652446502: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <13> es <632>.
+********************************************[0m
+1652446502: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <14> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652446502: 
+-------------------------------------------------------
+Mandando PETICION <*>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652446515: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652446515: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <14> .
+
+*************************************************[0m
+1652446515: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1652446515: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652446516: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)
+1652446699: 
+Recibida una señal no esperada.
+1652446701: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1652446701: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-2/.n_cliente>
+1652446701: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x72357116> por el proceso <client>.
+----------------------------------------------------------------------------------
+1652446701: :ok> Operación bien realizada
+
+1652446701: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x72357116> el proceso <client>.
+--------------------------------------------------------------------------------------
+1652446701: :ok> Operación bien realizada
+
+1652446701: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <142>.
+********************************************[0m
+1652446701: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <13> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652446701: 
+-------------------------------------------------------
+Mandando PETICION <+>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652446701: RECIBIDO MENSAJE: "+<6918><929>".
+1652446701: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <13> es <632>.
+********************************************[0m
+1652446701: 
+------------------------------------------------------------------
+Enviando información sobre el secreto <14> a través de la cola de mensajes <0x72357116>
+------------------------------------------------------------------
+1652446701: 
+-------------------------------------------------------
+Mandando PETICION <*>. Esperando RESPUESTA...... 
+-------------------------------------------------------
+1652446714: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+
+-------------------------------------------------------
+1652446714: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <14> .
+
+*************************************************[0m
+1652446714: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1652446714: COMMAND <who >> .trazas-2/alumno-72357116J>
+jorge    :0           2022-05-13 10:41 (:0)
+jorge    pts/1        2022-05-13 08:57 (192.168.1.48)
+jorge    pts/2        2022-05-13 08:57 (192.168.1.48)

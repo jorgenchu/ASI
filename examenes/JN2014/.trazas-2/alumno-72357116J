@@ -1,0 +1,124 @@
+1652172746: COMMAND <cp ./examen2 /tmp/.examen2>
+1652172746: COMMAND <cp -f /tmp/.examen2 ./examen2>
+1652172746: COMMAND <uname -a >> .trazas-2/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652172746: COMMAND <ifconfig 2>&1 >> .trazas-2/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 16148  bytes 18250732 (18.2 MB)
+        RX errors 0  dropped 679  overruns 0  frame 0
+        TX packets 8907  bytes 930813 (930.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 44015
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 708  bytes 74264 (74.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 708  bytes 74264 (74.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652172746: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-2/alumno-72357116J>
+MACHINE-ID: 1652172746: COMMAND <cat /etc/machine-id >> .trazas-2/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652172746: 
+La máquina está ya identificada.
+1652172746: RX: <OK Accepted>
+1652172750: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652172750: RX: <NEW>
+1652172750: 
+***************************************************
+El usuario no tiene un password público registrado.
+Por favor, confirme el password para darlo de alta.
+[5mEl password debe recordarlo para futuras sesiones.[0m
+Utilice una secuencia de caracteres personal privados.
+En el servidor se guardará una versión encriptada.
+Si no está de acuerdo con el password que ha utilizado
+interrumpa el proceso y comience de nuevo el registro.
+Posteriormente será más complicado modificarlo. Tendrá.
+que ponerse en contacto con el administrador:
+                 armando.ferro@ehu.eus
+***************************************************
+1652172755: TX: <CREATEPWD 0uaiaNcMG41rnQ>
+1652172755: [5m
+LOGIN: Registrado password público <0uaiaNcMG41rnQ>.[0m
+1652172755: RX: <DONE>
+1652172755: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652172755: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652172755: RX: <REGISTERED>
+1652172755: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652172755: COMMAND <cp ./client.? .trazas-2>
+1652172755: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652172755: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-10-5-9h52\n" | 	  ftp -n 2>&1 > /dev/null>
+1652172756: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1652173056: INTENTO DE CONEXION DIA:10 MES:5 HORA:9:57m.
+1652173056: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652173056: COMMAND <cp ./client.? .trazas-2>
+1652173056: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652173056: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-10-5-9h57\n" | 	  ftp -n 2>&1 > /dev/null>
+1652173058: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1652173356: INTENTO DE CONEXION DIA:10 MES:5 HORA:10:2m.
+1652173356: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652173356: COMMAND <cp ./client.? .trazas-2>
+1652173356: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652173356: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-10-5-10h02\n" | 	  ftp -n 2>&1 > /dev/null>
+1652173357: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1652173656: INTENTO DE CONEXION DIA:10 MES:5 HORA:10:7m.
+1652173656: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652173656: COMMAND <cp ./client.? .trazas-2>
+1652173656: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652173656: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-10-5-10h07\n" | 	  ftp -n 2>&1 > /dev/null>
+1652173657: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1652173956: INTENTO DE CONEXION DIA:10 MES:5 HORA:10:12m.
+1652173956: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652173956: COMMAND <cp ./client.? .trazas-2>
+1652173956: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652173956: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-10-5-10h12\n" | 	  ftp -n 2>&1 > /dev/null>
+1652173957: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1652174256: INTENTO DE CONEXION DIA:10 MES:5 HORA:10:17m.
+1652174256: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652174256: COMMAND <cp ./client.? .trazas-2>
+1652174256: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652174256: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-10-5-10h17\n" | 	  ftp -n 2>&1 > /dev/null>
+1652174257: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1652174556: INTENTO DE CONEXION DIA:10 MES:5 HORA:10:22m.
+1652174556: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652174556: COMMAND <cp ./client.? .trazas-2>
+1652174556: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652174556: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-10-5-10h22\n" | 	  ftp -n 2>&1 > /dev/null>
+1652174557: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1652174856: INTENTO DE CONEXION DIA:10 MES:5 HORA:10:27m.
+1652174856: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652174856: COMMAND <cp ./client.? .trazas-2>
+1652174856: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652174856: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-10-5-10h27\n" | 	  ftp -n 2>&1 > /dev/null>
+1652174857: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1652176874: INTENTO DE CONEXION DIA:10 MES:5 HORA:11:1m.
+1652176874: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652176874: COMMAND <cp ./client.? .trazas-2>
+1652176874: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652176874: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-10-5-11h01\n" | 	  ftp -n 2>&1 > /dev/null>
+1652176875: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1652177174: INTENTO DE CONEXION DIA:10 MES:5 HORA:11:6m.
+1652177174: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652177174: COMMAND <cp ./client.? .trazas-2>
+1652177174: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652177174: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-10-5-11h06\n" | 	  ftp -n 2>&1 > /dev/null>
+1652177175: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1652177474: INTENTO DE CONEXION DIA:10 MES:5 HORA:11:11m.
+1652177474: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652177474: COMMAND <cp ./client.? .trazas-2>
+1652177474: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652177474: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-10-5-11h11\n" | 	  ftp -n 2>&1 > /dev/null>
+1652177475: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>
+1652177540: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-2" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652177540: COMMAND <cp ./client.? .trazas-2>
+1652177540: COMMAND <tar zcf save_file-72357116J .trazas-2 > /dev/null>
+1652177540: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-2\nput save_file-72357116J 72357116J-10-5-11h11\n" | 	  ftp -n 2>&1 > /dev/null>
+1652177540: COMMAND <test -f .trazas-2/.clean_bck.tz && rm .trazas-2/.clean_bck.tz>

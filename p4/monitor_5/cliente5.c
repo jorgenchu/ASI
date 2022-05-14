@@ -60,6 +60,62 @@ printf("\nsecreto 2: %d\n", sec2);
 sprintf(buff_tx, "<%d>", sec2);
 write(socketfd, buff_tx, strlen(buff_tx));
 close(socketfd);
+/////////////////////////////////////////
+
+/////////////////EJERCICIO 3/////////////////////////////
+printf("\nPulsa para iniciar el ejercicio 3");
+getchar();
+//Definición de las variables de UDP(Cliente)
+
+cliente.sin_family = AF_INET;
+cliente.sin_port = htons(PORT);
+cliente.sin_addr.s_addr = htonl(INADDR_ANY);
+bzero(&(cliente.sin_zero), 8);
+/////////////DEFINICION CLIENTE//////////
+servidor.sin_family = AF_INET;
+servidor.sin_port = htons (3000);
+bzero(&(servidor.sin_zero),8);
+socketfd = socket(AF_INET, SOCK_DGRAM, 0);
+
+if(socketfd==-1){
+    perror("\n[Servidor3]: Error al crear el\n");
+    return -1;
+}
+///Publicación de los datos del cliente
+bin = bind(socketfd, (struct sockaddr *) &cliente, sizeof(cliente));
+if(bin ==-1){
+    perror("\n[Servidor3]: Error al bienear\n");
+    return -1;
+}
+printf("\nExito al binnear");
+//solicitud del secreto
+strcpy(buff_tx, "<\?\?\?>");
+sendto(socketfd, buff_tx, strlen(buff_tx), 0, (struct sockaddr *) &servidor, tam);
+tam = sizeof(servidor);
+recvfrom(socketfd, buff_rx, strlen(buff_rx), 0, (struct sockaddr *) &servidor, &tam);
+
+sec2 = *((int*)buff_rx);
+printf("\nsecrto = %d", sec2);
+
+sendto(socketfd, &sec2, sizeof(int), 0, (struct sockaddr *) &servidor, tam);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /////////////EJERCICIO 2/////////////////
 printf("\nEmpezarndo ejecución del ejercicio 2 (SERVIDOR RECURRENTE)\n");
@@ -68,9 +124,6 @@ servidor.sin_family = AF_INET;
 servidor.sin_port = htons (PORT1);
 servidor.sin_addr.s_addr = htonl(INADDR_ANY);
 bzero(&(servidor.sin_zero),8);
-
-
-
 /////////////////////////////////////////
 
 socketfd = socket(AF_INET, SOCK_STREAM, 0);
@@ -91,15 +144,11 @@ if(li ==-1){
     perror("\n[Servidor]: Error al escuchar\n");
     return -1;
 }
-        //Señal sighold, que enviaran los hijos cuando han terminado
+//Señal sighold, que enviaran los hijos cuando han terminado
 printf("\nEscuchando\n");
-//signal(SIGCHLD, esperar);
- 
-
-
+signal(SIGCHLD, esperar);
     while(1){
         tam = sizeof(cliente);//cliente creado en el ejercicio 1
-
         new_socket = accept(socketfd, (struct sockaddr *) &cliente, &tam);
         if(new_socket ==-1){
             perror("\n[Servidor]: Error al conectar\n");
@@ -111,23 +160,27 @@ printf("\nEscuchando\n");
         /*
         Creacion de un proceso secundario que recibira la información del cliente y la enviará de vuelta al cliente
         */
+       
             while(read(new_socket, &num, sizeof(int))==sizeof(int))
             {
-                
                 printf("\nsecreto : %d\n", num);
                 //pasamos al formato que se pide y enviamos
                 sprintf(buff_tx, "<%d>", num);
                 write(new_socket, buff_tx, strlen(buff_tx));
-
+                
             }
             close(new_socket);// se cierra el soxket de escucha, este proceso se hereda del proceso padre
             exit(0);
+            break;
 
         }else{
             close(new_socket);
         }
-    
-    }     
+    }
+
+
+
+
 
 
     return 0;
