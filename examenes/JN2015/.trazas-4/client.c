@@ -165,8 +165,7 @@ int main(int argc, char const *argv[])
 
                     (*(int*)(dir+3*sizeof(int)))-=1;
                 }
-                if(salir == 0){///SI NO PONES ESTO NO VA EL 7
-            
+                if(salir == 0){
                                               
                     *((int*)(dir+2*sizeof(int))) += 1;
                                      

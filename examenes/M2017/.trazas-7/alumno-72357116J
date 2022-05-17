@@ -1,0 +1,71 @@
+1652698259: COMMAND <cp ./examen7 /tmp/.examen7>
+1652698260: COMMAND <cp -f /tmp/.examen7 ./examen7>
+1652698260: COMMAND <uname -a >> .trazas-7/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652698260: COMMAND <ifconfig 2>&1 >> .trazas-7/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 81401  bytes 26377309 (26.3 MB)
+        RX errors 0  dropped 149  overruns 0  frame 0
+        TX packets 25960  bytes 23396377 (23.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 130527
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 2225  bytes 161136 (161.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2225  bytes 161136 (161.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652698260: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-7/alumno-72357116J>
+MACHINE-ID: 1652698260: COMMAND <cat /etc/machine-id >> .trazas-7/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652698260: 
+La máquina está ya identificada.
+1652698260: RX: <OK Accepted>
+1652698263: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652698263: RX: <NEW>
+1652698263: 
+***************************************************
+El usuario no tiene un password público registrado.
+Por favor, confirme el password para darlo de alta.
+[5mEl password debe recordarlo para futuras sesiones.[0m
+Utilice una secuencia de caracteres personal privados.
+En el servidor se guardará una versión encriptada.
+Si no está de acuerdo con el password que ha utilizado
+interrumpa el proceso y comience de nuevo el registro.
+Posteriormente será más complicado modificarlo. Tendrá.
+que ponerse en contacto con el administrador:
+                 armando.ferro@ehu.eus
+***************************************************
+1652698266: TX: <CREATEPWD 0uaiaNcMG41rnQ>
+1652698266: [5m
+LOGIN: Registrado password público <0uaiaNcMG41rnQ>.[0m
+1652698266: RX: <DONE>
+1652698266: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652698266: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652698266: RX: <REGISTERED>
+1652698266: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-7" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652698266: COMMAND <cp ./client.? .trazas-7>
+1652698266: COMMAND <tar zcf save_file-72357116J .trazas-7 > /dev/null>
+1652698266: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-7\nput save_file-72357116J 72357116J-16-5-11h50\n" | 	  ftp -n 2>&1 > /dev/null>
+1652698267: COMMAND <test -f .trazas-7/.clean_bck.tz && rm .trazas-7/.clean_bck.tz>
+1652698567: INTENTO DE CONEXION DIA:16 MES:5 HORA:11:56m.
+1652698567: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-7" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652698567: COMMAND <cp ./client.? .trazas-7>
+1652698567: COMMAND <tar zcf save_file-72357116J .trazas-7 > /dev/null>
+1652698567: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-7\nput save_file-72357116J 72357116J-16-5-11h56\n" | 	  ftp -n 2>&1 > /dev/null>
+1652698568: COMMAND <test -f .trazas-7/.clean_bck.tz && rm .trazas-7/.clean_bck.tz>
+1652698867: INTENTO DE CONEXION DIA:16 MES:5 HORA:12:1m.
+1652698867: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-7" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652698867: COMMAND <cp ./client.? .trazas-7>
+1652698867: COMMAND <tar zcf save_file-72357116J .trazas-7 > /dev/null>
+1652698867: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-7\nput save_file-72357116J 72357116J-16-5-12h01\n" | 	  ftp -n 2>&1 > /dev/null>
+1652698868: COMMAND <test -f .trazas-7/.clean_bck.tz && rm .trazas-7/.clean_bck.tz>
