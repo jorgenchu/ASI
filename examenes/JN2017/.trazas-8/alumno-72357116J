@@ -1,0 +1,3020 @@
+1652807491: COMMAND <cp ./examen8 /tmp/.examen8>
+1652807491: COMMAND <cp -f /tmp/.examen8 ./examen8>
+1652807491: COMMAND <uname -a >> .trazas-8/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652807491: COMMAND <ifconfig 2>&1 >> .trazas-8/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 20303  bytes 12917988 (12.9 MB)
+        RX errors 0  dropped 266  overruns 0  frame 0
+        TX packets 9250  bytes 5797727 (5.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 46534
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 467  bytes 50937 (50.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 467  bytes 50937 (50.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652807491: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-8/alumno-72357116J>
+MACHINE-ID: 1652807491: COMMAND <cat /etc/machine-id >> .trazas-8/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652807491: 
+La máquina está ya identificada.
+1652807491: RX: <OK Accepted>
+1652807494: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652807494: RX: <NEW>
+1652807494: 
+***************************************************
+El usuario no tiene un password público registrado.
+Por favor, confirme el password para darlo de alta.
+[5mEl password debe recordarlo para futuras sesiones.[0m
+Utilice una secuencia de caracteres personal privados.
+En el servidor se guardará una versión encriptada.
+Si no está de acuerdo con el password que ha utilizado
+interrumpa el proceso y comience de nuevo el registro.
+Posteriormente será más complicado modificarlo. Tendrá.
+que ponerse en contacto con el administrador:
+                 armando.ferro@ehu.eus
+***************************************************
+1652807496: TX: <CREATEPWD 0uaiaNcMG41rnQ>
+1652807496: [5m
+LOGIN: Registrado password público <0uaiaNcMG41rnQ>.[0m
+1652807496: RX: <DONE>
+1652807496: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652807496: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652807496: RX: <REGISTERED>
+1652807496: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652807496: COMMAND <cp ./client.? .trazas-8>
+1652807496: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652807496: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h11\n" | 	  ftp -n 2>&1 > /dev/null>
+1652807497: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652807797: INTENTO DE CONEXION DIA:17 MES:5 HORA:18:16m.
+1652807797: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652807797: COMMAND <cp ./client.? .trazas-8>
+1652807797: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652807798: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h16\n" | 	  ftp -n 2>&1 > /dev/null>
+1652807798: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652808006: COMMAND <cp ./examen8 /tmp/.examen8>
+1652808006: COMMAND <cp -f /tmp/.examen8 ./examen8>
+1652808006: COMMAND <uname -a >> .trazas-8/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652808006: COMMAND <ifconfig 2>&1 >> .trazas-8/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 45599  bytes 17214214 (17.2 MB)
+        RX errors 0  dropped 270  overruns 0  frame 0
+        TX packets 20312  bytes 31709815 (31.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 104305
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 535  bytes 59339 (59.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 535  bytes 59339 (59.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652808006: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-8/alumno-72357116J>
+MACHINE-ID: 1652808006: COMMAND <cat /etc/machine-id >> .trazas-8/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652808006: 
+La máquina está ya identificada.
+1652808006: RX: <OK Accepted>
+1652808006: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652808006: RX: <OK>
+1652808006: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652808006: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652808006: RX: <REGISTERED>
+1652808006: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652808006: COMMAND <cp ./client.? .trazas-8>
+1652808006: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652808006: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h20\n" | 	  ftp -n 2>&1 > /dev/null>
+1652808007: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652808307: INTENTO DE CONEXION DIA:17 MES:5 HORA:18:25m.
+1652808307: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652808307: COMMAND <cp ./client.? .trazas-8>
+1652808307: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652808307: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h25\n" | 	  ftp -n 2>&1 > /dev/null>
+1652808308: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652808397: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652808397: COMMAND <ps u >> .trazas-8/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        822  0.0  0.1 166800  6644 tty2     Ssl+ 18:07   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        830  3.1  2.1 342868 84496 tty2     Sl+  18:07   0:35 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge        998  0.0  0.3 193448 15428 tty2     Sl+  18:07   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       1661  0.0  0.1  13632  5484 pts/0    Ss   18:07   0:00 -bash
+jorge       1915  0.0  0.1  13628  5540 pts/1    Ss+  18:08   0:00 bash
+jorge       2681  0.1  0.1  13816  5496 pts/2    Ss   18:11   0:01 -bash
+jorge       2980  0.0  0.0   2972  2456 pts/0    S+   18:20   0:00 ./examen8
+jorge       3108  0.6  0.0   2496   516 pts/2    S+   18:26   0:00 ./client 2707
+jorge       3110  0.0  0.0   2616   528 pts/0    S+   18:26   0:00 sh -c ps u >> .trazas-8/alumno-72357116J
+jorge       3111  0.0  0.0  14192  3428 pts/0    R+   18:26   0:00 ps u
+1652808397: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-8/.n_cliente>
+1652808397: COMMAND <ipcrm -M 0x72357116 >> .trazas-8/alumno-72357116J>
+1652808397: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652808397: COMMAND <rm /tmp/fifo_rd >> .trazas-8/alumno-72357116J>
+1652808397: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652808397: COMMAND <rm /tmp/fifo_wr >> .trazas-8/alumno-72357116J>
+1652808397: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652808397: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1652808397: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1652808397: 
+-------------------------------------------------------
+Creada la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652808397: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1652808397: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1652808397: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652808397: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <11108>
+-------------------------------------------------------
+1652808397: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 11108.
+-------------------------------------------------------
+1652808404: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652808404: 
+-------------------------------------------------------
+Recibido 50 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652808404: 
+-------------------------------------------------------
+Mensaje FIFO recibido con longitud no controlada (50)
+-------------------------------------------------------
+1652808404: 
+-------------------------------------------------------
+Recibido via UDP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808404: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <996>.
+********************************************[0m
+1652808404: 
+-------------------------------------------------------
+Enviando via UDP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808404: 
+-------------------------------------------------------
+Recibida conexión <127.0.0.1> en servidor TCP en el puerto <11108>
+-------------------------------------------------------
+1652808404: 
+-------------------------------------------------------
+REcibido via TCP 50 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808404: 
+-------------------------------------------------------
+Mensaje TCP recibido con longitud no controlada (50)
+-------------------------------------------------------
+1652808407: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808410: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808413: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808416: 
+-------------------------------------------------------
+Enviando via UDP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808417: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808420: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808423: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808426: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808429: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808433: 
+-------------------------------------------------------
+Enviando via UDP 5 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808444: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652808445: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652808606: COMMAND <cp ./examen8 /tmp/.examen8>
+1652808606: COMMAND <cp -f /tmp/.examen8 ./examen8>
+1652808606: COMMAND <uname -a >> .trazas-8/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652808606: COMMAND <ifconfig 2>&1 >> .trazas-8/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 67416  bytes 21102039 (21.1 MB)
+        RX errors 0  dropped 275  overruns 0  frame 0
+        TX packets 30135  bytes 48371626 (48.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 155196
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 597  bytes 64407 (64.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 597  bytes 64407 (64.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652808606: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-8/alumno-72357116J>
+MACHINE-ID: 1652808606: COMMAND <cat /etc/machine-id >> .trazas-8/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652808606: 
+La máquina está ya identificada.
+1652808606: RX: <OK Accepted>
+1652808606: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652808606: RX: <OK>
+1652808606: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652808606: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652808606: RX: <REGISTERED>
+1652808606: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652808606: COMMAND <cp ./client.? .trazas-8>
+1652808606: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652808606: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h30\n" | 	  ftp -n 2>&1 > /dev/null>
+1652808607: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652808619: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652808619: COMMAND <ps u >> .trazas-8/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        822  0.0  0.1 166800  6644 tty2     Ssl+ 18:07   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        830  2.6  2.0 342356 84024 tty2     Sl+  18:07   0:36 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge        998  0.0  0.3 193448 15428 tty2     Sl+  18:07   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       1661  0.0  0.1  13632  5484 pts/0    Ss   18:07   0:00 -bash
+jorge       1915  0.0  0.1  13628  5540 pts/1    Ss+  18:08   0:00 bash
+jorge       2681  0.1  0.1  13816  5496 pts/2    Ss   18:11   0:01 -bash
+jorge       3153  1.7  0.0   2972  2380 pts/0    S+   18:30   0:00 ./examen8
+jorge       3179  0.6  0.0   2496   512 pts/2    S+   18:30   0:00 ./client 3153
+jorge       3181  0.0  0.0   2616   596 pts/0    S+   18:30   0:00 sh -c ps u >> .trazas-8/alumno-72357116J
+jorge       3182  0.0  0.0  14192  3380 pts/0    R+   18:30   0:00 ps u
+1652808619: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-8/.n_cliente>
+1652808619: COMMAND <ipcrm -M 0x72357116 >> .trazas-8/alumno-72357116J>
+1652808619: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652808619: COMMAND <rm /tmp/fifo_rd >> .trazas-8/alumno-72357116J>
+1652808619: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652808619: COMMAND <rm /tmp/fifo_wr >> .trazas-8/alumno-72357116J>
+1652808619: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652808619: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1652808619: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1652808619: 
+-------------------------------------------------------
+Creada la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652808619: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1652808619: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1652808619: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652808619: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <11179>
+-------------------------------------------------------
+1652808619: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 11179.
+-------------------------------------------------------
+1652808620: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652808827: COMMAND <cp ./examen8 /tmp/.examen8>
+1652808827: COMMAND <cp -f /tmp/.examen8 ./examen8>
+1652808828: COMMAND <uname -a >> .trazas-8/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652808828: COMMAND <ifconfig 2>&1 >> .trazas-8/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 76597  bytes 22619663 (22.6 MB)
+        RX errors 0  dropped 277  overruns 0  frame 0
+        TX packets 33898  bytes 58976938 (58.9 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 174992
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 632  bytes 66705 (66.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 632  bytes 66705 (66.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652808828: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-8/alumno-72357116J>
+MACHINE-ID: 1652808828: COMMAND <cat /etc/machine-id >> .trazas-8/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652808828: 
+La máquina está ya identificada.
+1652808828: RX: <OK Accepted>
+1652808828: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652808828: RX: <OK>
+1652808828: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652808828: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652808828: RX: <REGISTERED>
+1652808828: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652808828: COMMAND <cp ./client.? .trazas-8>
+1652808828: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652808828: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h33\n" | 	  ftp -n 2>&1 > /dev/null>
+1652808829: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652808833: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652808833: COMMAND <ps u >> .trazas-8/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        822  0.0  0.1 166800  6644 tty2     Ssl+ 18:07   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        830  2.3  2.0 342356 84048 tty2     Sl+  18:07   0:36 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge        998  0.0  0.3 193448 15428 tty2     Sl+  18:07   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       1661  0.0  0.1  13632  5484 pts/0    Ss   18:07   0:00 -bash
+jorge       1915  0.0  0.1  13628  5540 pts/1    Ss+  18:08   0:00 bash
+jorge       2681  0.1  0.1  13816  5496 pts/2    Ss   18:11   0:01 -bash
+jorge       3226  1.5  0.0   2972  2440 pts/0    S+   18:33   0:00 ./examen8
+jorge       3252  1.0  0.0   2496   576 pts/2    S+   18:33   0:00 ./client 3153
+jorge       3253  3.0  0.0   2616   600 pts/0    S+   18:33   0:00 sh -c ps u >> .trazas-8/alumno-72357116J
+jorge       3254  0.0  0.0  14192  3380 pts/0    R+   18:33   0:00 ps u
+1652808833: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-8/.n_cliente>
+1652808833: COMMAND <ipcrm -M 0x72357116 >> .trazas-8/alumno-72357116J>
+1652808833: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652808833: COMMAND <rm /tmp/fifo_rd >> .trazas-8/alumno-72357116J>
+1652808833: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652808833: COMMAND <rm /tmp/fifo_wr >> .trazas-8/alumno-72357116J>
+1652808833: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652808833: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1652808833: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1652808833: 
+-------------------------------------------------------
+Creada la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652808833: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1652808833: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 11252.
+-------------------------------------------------------
+1652808833: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1652808833: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <11252>
+-------------------------------------------------------
+1652808833: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652808834: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652808834: 
+-------------------------------------------------------
+Recibido 10 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652808834: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <194>.
+********************************************[0m
+1652808834: 
+-------------------------------------------------------
+Recibida conexión <127.0.0.1> en servidor TCP en el puerto <11252>
+-------------------------------------------------------
+1652808834: 
+-------------------------------------------------------
+REcibido via TCP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808834: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652808834: 
+-------------------------------------------------------
+Recibido via UDP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808834: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652808834: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <996>.
+********************************************[0m
+1652808834: 
+-------------------------------------------------------
+Enviando via UDP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808834: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <53>.
+********************************************[0m
+1652808834: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808837: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808837: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808837: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652808837: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808837: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652808837: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808840: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808840: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808840: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652808840: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808840: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652808840: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808843: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808843: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652808843: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808843: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808843: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652808843: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808846: 
+-------------------------------------------------------
+Enviando 11 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652808846: 
+-------------------------------------------------------
+Enviando via TCP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808846: 
+-------------------------------------------------------
+Enviando via UDP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808846: 
+-------------------------------------------------------
+Recibido 7 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652808846: 
+-------------------------------------------------------
+REcibido via TCP 7 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808846: 
+-------------------------------------------------------
+Valor (3) de la clave 2 INCORRECTO.
+-------------------------------------------------------
+1652808846: 
+-------------------------------------------------------
+Valor (3) de la clave 2 INCORRECTO.
+-------------------------------------------------------
+1652808846: 
+-------------------------------------------------------
+Recibido via UDP 7 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808846: 
+-------------------------------------------------------
+Valor (3) de la clave 2 INCORRECTO.
+-------------------------------------------------------
+1652808847: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808847: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652808847: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808847: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808847: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808847: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <531>.
+********************************************[0m
+1652808847: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652808847: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808847: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652808847: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <160>.
+********************************************[0m
+1652808847: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808847: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <9> es <314>.
+********************************************[0m
+1652808850: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652808850: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808850: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652808850: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808851: 
+-------------------------------------------------------
+Enviando via TCP 5 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808851: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808851: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <14> es <683>.
+********************************************[0m
+1652808853: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652808853: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808853: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652808853: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808856: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652808856: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808856: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652808856: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808859: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652808859: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652808859: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808859: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808863: 
+-------------------------------------------------------
+Enviando 5 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652808863: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652808863: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <13> es <502>.
+********************************************[0m
+1652808863: 
+-------------------------------------------------------
+Enviando via UDP 5 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652808863: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652808863: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <15> es <156>.
+********************************************[0m
+1652808880: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809038: COMMAND <cp ./examen8 /tmp/.examen8>
+1652809038: COMMAND <cp -f /tmp/.examen8 ./examen8>
+1652809038: COMMAND <uname -a >> .trazas-8/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652809038: COMMAND <ifconfig 2>&1 >> .trazas-8/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 77457  bytes 22795587 (22.7 MB)
+        RX errors 0  dropped 279  overruns 0  frame 0
+        TX packets 34340  bytes 59154012 (59.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 177178
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 699  bytes 70039 (70.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 699  bytes 70039 (70.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652809038: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-8/alumno-72357116J>
+MACHINE-ID: 1652809038: COMMAND <cat /etc/machine-id >> .trazas-8/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652809038: 
+La máquina está ya identificada.
+1652809038: RX: <OK Accepted>
+1652809038: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652809038: RX: <OK>
+1652809038: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652809038: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652809038: RX: <REGISTERED>
+1652809038: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652809038: COMMAND <cp ./client.? .trazas-8>
+1652809038: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652809038: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h37\n" | 	  ftp -n 2>&1 > /dev/null>
+1652809039: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652809046: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652809046: COMMAND <ps u >> .trazas-8/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        822  0.0  0.1 166800  6644 tty2     Ssl+ 18:07   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        830  2.0  2.0 342356 84088 tty2     Sl+  18:07   0:37 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge        998  0.0  0.3 193448 15428 tty2     Sl+  18:07   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       1661  0.0  0.1  13632  5484 pts/0    Ss   18:07   0:00 -bash
+jorge       1915  0.0  0.1  13628  5540 pts/1    Ss+  18:08   0:00 bash
+jorge       2681  0.1  0.1  13816  5496 pts/2    Ss+  18:11   0:01 -bash
+jorge       3290  1.0  0.0   2972  2376 pts/0    S+   18:37   0:00 ./examen8
+jorge       3316  0.0  0.0   2616   528 pts/0    S+   18:37   0:00 sh -c ps u >> .trazas-8/alumno-72357116J
+jorge       3317  0.0  0.0  14192  3460 pts/0    R+   18:37   0:00 ps u
+1652809046: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-8/.n_cliente>
+1652809046: 
+-------------------------------------------------------
+Número de procesos cliente (0) inadecuado. Debe ser (1)
+-------------------------------------------------------
+1652809046: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1652809046: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809047: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809056: COMMAND <cp ./examen8 /tmp/.examen8>
+1652809056: COMMAND <cp -f /tmp/.examen8 ./examen8>
+1652809056: COMMAND <uname -a >> .trazas-8/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652809056: COMMAND <ifconfig 2>&1 >> .trazas-8/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 77627  bytes 22827834 (22.8 MB)
+        RX errors 0  dropped 279  overruns 0  frame 0
+        TX packets 34424  bytes 59176015 (59.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 177600
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 705  bytes 70497 (70.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 705  bytes 70497 (70.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652809056: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-8/alumno-72357116J>
+MACHINE-ID: 1652809056: COMMAND <cat /etc/machine-id >> .trazas-8/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652809056: 
+La máquina está ya identificada.
+1652809056: RX: <OK Accepted>
+1652809056: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652809056: RX: <OK>
+1652809056: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652809056: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652809056: RX: <REGISTERED>
+1652809056: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652809056: COMMAND <cp ./client.? .trazas-8>
+1652809056: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652809057: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h37\n" | 	  ftp -n 2>&1 > /dev/null>
+1652809057: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652809060: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652809060: COMMAND <ps u >> .trazas-8/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        822  0.0  0.1 166800  6644 tty2     Ssl+ 18:07   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        830  2.0  2.0 342356 84088 tty2     Sl+  18:07   0:37 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge        998  0.0  0.3 193448 15428 tty2     Sl+  18:07   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       1661  0.0  0.1  13632  5484 pts/0    Ss   18:07   0:00 -bash
+jorge       1915  0.0  0.1  13628  5540 pts/1    Ss+  18:08   0:00 bash
+jorge       2681  0.1  0.1  13816  5496 pts/2    Ss   18:11   0:01 -bash
+jorge       3327  2.5  0.0   2972  2456 pts/0    S+   18:37   0:00 ./examen8
+jorge       3354  0.6  0.0   2496   580 pts/2    S+   18:37   0:00 ./client 3290
+jorge       3355  0.0  0.0   2616   596 pts/0    S+   18:37   0:00 sh -c ps u >> .trazas-8/alumno-72357116J
+jorge       3356  0.0  0.0  14192  3472 pts/0    R+   18:37   0:00 ps u
+1652809060: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-8/.n_cliente>
+1652809060: COMMAND <ipcrm -M 0x72357116 >> .trazas-8/alumno-72357116J>
+1652809061: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652809061: COMMAND <rm /tmp/fifo_rd >> .trazas-8/alumno-72357116J>
+1652809061: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652809061: COMMAND <rm /tmp/fifo_wr >> .trazas-8/alumno-72357116J>
+1652809061: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652809061: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1652809061: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1652809061: 
+-------------------------------------------------------
+Creada la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652809061: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1652809061: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1652809061: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809061: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 11354.
+-------------------------------------------------------
+1652809061: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <11354>
+-------------------------------------------------------
+1652809061: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652809061: 
+-------------------------------------------------------
+Recibido 10 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809061: 
+-------------------------------------------------------
+Recibida conexión <127.0.0.1> en servidor TCP en el puerto <11354>
+-------------------------------------------------------
+1652809061: 
+-------------------------------------------------------
+REcibido via TCP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809061: 
+-------------------------------------------------------
+Recibido via UDP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809061: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <194>.
+********************************************[0m
+1652809061: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <53>.
+********************************************[0m
+1652809061: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652809061: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <996>.
+********************************************[0m
+1652809061: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809061: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809061: 
+-------------------------------------------------------
+Enviando via UDP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809064: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809064: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809064: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809064: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809064: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809064: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809067: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809067: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809067: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809067: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809067: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809067: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809070: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809070: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809070: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809070: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809070: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809070: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809073: 
+-------------------------------------------------------
+Enviando 11 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809073: 
+-------------------------------------------------------
+Recibido 13 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809073: 
+-------------------------------------------------------
+Valor (3749171) de la clave 2 INCORRECTO.
+-------------------------------------------------------
+1652809073: 
+-------------------------------------------------------
+Enviando via UDP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809073: 
+-------------------------------------------------------
+Recibido via UDP 13 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809073: 
+-------------------------------------------------------
+Valor (3747892) de la clave 2 INCORRECTO.
+-------------------------------------------------------
+1652809073: 
+-------------------------------------------------------
+Enviando via TCP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809073: 
+-------------------------------------------------------
+REcibido via TCP 13 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809073: 
+-------------------------------------------------------
+Valor (3160377) de la clave 2 INCORRECTO.
+-------------------------------------------------------
+1652809074: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809074: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809074: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809074: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <160>.
+********************************************[0m
+1652809074: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809074: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809074: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809074: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809074: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809074: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <9> es <314>.
+********************************************[0m
+1652809074: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809074: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <531>.
+********************************************[0m
+1652809077: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809077: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809077: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809077: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809078: 
+-------------------------------------------------------
+Enviando via TCP 5 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809078: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809078: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <14> es <683>.
+********************************************[0m
+1652809080: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809080: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809080: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809080: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809083: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809083: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809083: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809083: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809086: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809086: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809086: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809086: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809090: 
+-------------------------------------------------------
+Enviando 5 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809090: 
+-1652809104: COMMAND <cp ./examen8 /tmp/.examen8>
+1652809104: COMMAND <cp -f /tmp/.examen8 ./examen8>
+1652809104: COMMAND <uname -a >> .trazas-8/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652809104: COMMAND <ifconfig 2>&1 >> .trazas-8/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 77921  bytes 22888219 (22.8 MB)
+        RX errors 0  dropped 279  overruns 0  frame 0
+        TX packets 34608  bytes 59233013 (59.2 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 178509
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 775  bytes 74183 (74.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 775  bytes 74183 (74.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652809104: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-8/alumno-72357116J>
+MACHINE-ID: 1652809104: COMMAND <cat /etc/machine-id >> .trazas-8/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652809104: 
+La máquina está ya identificada.
+1652809104: RX: <OK Accepted>
+1652809104: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652809104: RX: <OK>
+1652809104: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652809104: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652809104: RX: <REGISTERED>
+1652809104: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652809104: COMMAND <cp ./client.? .trazas-8>
+1652809104: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652809105: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h38\n" | 	  ftp -n 2>&1 > /dev/null>
+1652809105: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652809244: COMMAND <cp ./examen8 /tmp/.examen8>
+1652809244: COMMAND <cp -f /tmp/.examen8 ./examen8>
+1652809244: COMMAND <uname -a >> .trazas-8/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652809244: COMMAND <ifconfig 2>&1 >> .trazas-8/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 90536  bytes 25060859 (25.0 MB)
+        RX errors 0  dropped 280  overruns 0  frame 0
+        TX packets 40206  bytes 70648692 (70.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 207540
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 781  bytes 74641 (74.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 781  bytes 74641 (74.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652809244: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-8/alumno-72357116J>
+MACHINE-ID: 1652809244: COMMAND <cat /etc/machine-id >> .trazas-8/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652809244: 
+La máquina está ya identificada.
+1652809244: RX: <OK Accepted>
+1652809244: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652809244: RX: <OK>
+1652809244: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652809244: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652809244: RX: <REGISTERED>
+1652809244: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652809245: COMMAND <cp ./client.? .trazas-8>
+1652809245: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652809245: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h40\n" | 	  ftp -n 2>&1 > /dev/null>
+1652809245: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652809255: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652809255: COMMAND <ps u >> .trazas-8/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        822  0.0  0.1 166800  6644 tty2     Ssl+ 18:07   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        830  1.8  2.0 342356 84132 tty2     Sl+  18:07   0:37 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge        998  0.0  0.3 193448 15428 tty2     Sl+  18:07   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       1661  0.0  0.1  13632  5484 pts/0    Ss   18:07   0:00 -bash
+jorge       1915  0.0  0.1  13628  5540 pts/1    Ss+  18:08   0:00 bash
+jorge       2681  0.1  0.1  13816  5496 pts/2    Ss   18:11   0:02 -bash
+jorge       3438  0.9  0.0   2972  2456 pts/0    S+   18:40   0:00 ./examen8
+jorge       3465  0.7  0.0   2496   572 pts/2    S+   18:40   0:00 ./client 3438
+jorge       3466  4.0  0.0   2616   596 pts/0    S+   18:40   0:00 sh -c ps u >> .trazas-8/alumno-72357116J
+jorge       3467  0.0  0.0  14192  3440 pts/0    R+   18:40   0:00 ps u
+1652809255: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-8/.n_cliente>
+1652809255: COMMAND <ipcrm -M 0x72357116 >> .trazas-8/alumno-72357116J>
+1652809255: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652809255: COMMAND <rm /tmp/fifo_rd >> .trazas-8/alumno-72357116J>
+1652809255: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652809255: COMMAND <rm /tmp/fifo_wr >> .trazas-8/alumno-72357116J>
+1652809255: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652809255: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1652809255: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1652809255: 
+-------------------------------------------------------
+Creada la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652809255: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1652809255: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1652809255: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809255: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 11465.
+-------------------------------------------------------
+1652809255: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <11465>
+-------------------------------------------------------
+1652809256: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809256: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652809256: 
+-------------------------------------------------------
+Recibido 10 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809256: 
+-------------------------------------------------------
+Recibida conexión <127.0.0.1> en servidor TCP en el puerto <11465>
+-------------------------------------------------------
+1652809256: 
+-------------------------------------------------------
+REcibido via TCP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809256: 
+-------------------------------------------------------
+Recibido via UDP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809256: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <53>.
+********************************************[0m
+1652809256: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <194>.
+********************************************[0m
+1652809256: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809256: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <996>.
+********************************************[0m
+1652809256: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652809256: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809256: 
+-------------------------------------------------------
+Enviando via UDP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809259: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809259: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809259: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809259: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809259: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809259: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809262: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809262: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809262: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809262: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809262: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809262: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809265: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809265: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809265: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809265: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809265: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809265: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809268: 
+-------------------------------------------------------
+Enviando via TCP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809268: 
+-------------------------------------------------------
+Enviando via UDP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809268: 
+-------------------------------------------------------
+REcibido via TCP 11 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809268: 
+-------------------------------------------------------
+Enviando 11 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809268: 
+-------------------------------------------------------
+Valor (12345) de la clave 2 INCORRECTO.
+-------------------------------------------------------
+1652809268: 
+-------------------------------------------------------
+Recibido via UDP 11 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809268: 
+-------------------------------------------------------
+Valor (14640) de la clave 2 INCORRECTO.
+-------------------------------------------------------
+1652809268: 
+-------------------------------------------------------
+Recibido 9 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809268: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <359>.
+********************************************[0m
+1652809268: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809269: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809269: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809269: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809269: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809269: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809269: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <9> es <314>.
+********************************************[0m
+1652809269: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809269: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809269: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <531>.
+********************************************[0m
+1652809269: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809269: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <160>.
+********************************************[0m
+1652809272: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809272: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809272: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809272: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809273: 
+-------------------------------------------------------
+Enviando via TCP 5 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809273: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809273: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <14> es <683>.
+********************************************[0m
+1652809275: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809275: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809275: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809275: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809278: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809278: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809278: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809278: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809281: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809281: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809281: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809281: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809285: 
+-------------------------------------------------------
+Enviando via UDP 5 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809285: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809285: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <15> es <156>.
+********************************************[0m
+1652809285: 
+-------------------------------------------------------
+Enviando 5 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809285: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809285: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <13> es <502>.
+********************************************[0m
+1652809296: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809418: COMMAND <cp ./examen8 /tmp/.examen8>
+1652809418: COMMAND <cp -f /tmp/.examen8 ./examen8>
+1652809418: COMMAND <uname -a >> .trazas-8/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652809418: COMMAND <ifconfig 2>&1 >> .trazas-8/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 94289  bytes 25709342 (25.7 MB)
+        RX errors 0  dropped 282  overruns 0  frame 0
+        TX packets 41864  bytes 74335660 (74.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 216164
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 881  bytes 81951 (81.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 881  bytes 81951 (81.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652809418: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-8/alumno-72357116J>
+MACHINE-ID: 1652809418: COMMAND <cat /etc/machine-id >> .trazas-8/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652809418: 
+La máquina está ya identificada.
+1652809418: RX: <OK Accepted>
+1652809418: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652809418: RX: <OK>
+1652809418: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652809418: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652809418: RX: <REGISTERED>
+1652809418: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652809418: COMMAND <cp ./client.? .trazas-8>
+1652809418: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652809418: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h43\n" | 	  ftp -n 2>&1 > /dev/null>
+1652809419: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652809422: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652809422: COMMAND <ps u >> .trazas-8/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        822  0.0  0.1 166800  6644 tty2     Ssl+ 18:07   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        830  1.7  2.0 342356 84172 tty2     Sl+  18:07   0:37 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge        998  0.0  0.3 193448 15428 tty2     Sl+  18:07   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       1661  0.0  0.1  13632  5484 pts/0    Ss   18:07   0:01 -bash
+jorge       1915  0.0  0.1  13628  5540 pts/1    Ss+  18:08   0:00 bash
+jorge       2681  0.1  0.1  13816  5496 pts/2    Ss   18:11   0:02 -bash
+jorge       3525  1.6  0.0   2972  2416 pts/0    S+   18:43   0:00 ./examen8
+jorge       3551  1.0  0.0   2496   576 pts/2    S+   18:43   0:00 ./client 3290
+jorge       3552  0.0  0.0   2616   592 pts/0    S+   18:43   0:00 sh -c ps u >> .trazas-8/alumno-72357116J
+jorge       3553  0.0  0.0  14192  3476 pts/0    R+   18:43   0:00 ps u
+1652809422: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-8/.n_cliente>
+1652809423: COMMAND <ipcrm -M 0x72357116 >> .trazas-8/alumno-72357116J>
+1652809423: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652809423: COMMAND <rm /tmp/fifo_rd >> .trazas-8/alumno-72357116J>
+1652809423: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652809423: COMMAND <rm /tmp/fifo_wr >> .trazas-8/alumno-72357116J>
+1652809423: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652809423: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1652809423: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1652809423: 
+-------------------------------------------------------
+Creada la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652809423: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1652809423: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1652809423: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809423: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <11551>
+-------------------------------------------------------
+1652809423: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 11551.
+-------------------------------------------------------
+1652809423: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652809423: 
+-------------------------------------------------------
+Recibido 10 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809423: 
+-------------------------------------------------------
+Recibido via UDP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809423: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <194>.
+********************************************[0m
+1652809423: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <996>.
+********************************************[0m
+1652809423: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652809423: 
+-------------------------------------------------------
+Enviando via UDP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809423: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809423: 
+-------------------------------------------------------
+Recibida conexión <127.0.0.1> en servidor TCP en el puerto <11551>
+-------------------------------------------------------
+1652809424: 
+-------------------------------------------------------
+REcibido via TCP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809424: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <53>.
+********************************************[0m
+1652809424: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809424: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809426: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809426: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809426: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809426: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809427: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809427: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809429: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809429: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809429: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809429: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809430: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809430: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809432: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809432: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809432: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809432: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809433: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809433: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809435: 
+-------------------------------------------------------
+Enviando 11 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809435: 
+-------------------------------------------------------
+Recibido 9 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809435: 
+-------------------------------------------------------
+Enviando via UDP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809435: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <359>.
+********************************************[0m
+1652809435: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809435: 
+-------------------------------------------------------
+Recibido via UDP 11 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809435: 
+-------------------------------------------------------
+Valor (14640) de la clave 8 INCORRECTO.
+-------------------------------------------------------
+1652809436: 
+-------------------------------------------------------
+Enviando via TCP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809436: 
+-------------------------------------------------------
+REcibido via TCP 11 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809436: 
+-------------------------------------------------------
+Valor (12345) de la clave 5 INCORRECTO.
+-------------------------------------------------------
+1652809436: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809436: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809436: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809436: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <160>.
+********************************************[0m
+1652809436: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809436: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809436: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <9> es <314>.
+********************************************[0m
+1652809437: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809437: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809437: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809437: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <531>.
+********************************************[0m
+1652809439: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809439: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809439: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809439: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809441: 
+-------------------------------------------------------
+Enviando via TCP 5 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809441: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809441: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <14> es <683>.
+********************************************[0m
+1652809442: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809442: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809442: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+------------------------1652809496: COMMAND <cp ./examen8 /tmp/.examen8>
+1652809496: COMMAND <cp -f /tmp/.examen8 ./examen8>
+1652809496: COMMAND <uname -a >> .trazas-8/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652809496: COMMAND <ifconfig 2>&1 >> .trazas-8/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 95008  bytes 25858576 (25.8 MB)
+        RX errors 0  dropped 283  overruns 0  frame 0
+        TX packets 42237  bytes 74482311 (74.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 218029
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 947  bytes 85183 (85.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 947  bytes 85183 (85.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652809496: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-8/alumno-72357116J>
+MACHINE-ID: 1652809496: COMMAND <cat /etc/machine-id >> .trazas-8/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652809496: 
+La máquina está ya identificada.
+1652809496: RX: <OK Accepted>
+1652809496: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652809496: RX: <OK>
+1652809496: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652809496: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652809496: RX: <REGISTERED>
+1652809496: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652809496: COMMAND <cp ./client.? .trazas-8>
+1652809496: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652809496: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h44\n" | 	  ftp -n 2>&1 > /dev/null>
+1652809497: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652809498: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809501: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652809501: COMMAND <ps u >> .trazas-8/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        822  0.0  0.1 166800  6644 tty2     Ssl+ 18:07   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        830  1.6  2.0 342356 84196 tty2     Sl+  18:07   0:38 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge        998  0.0  0.3 193448 15428 tty2     Sl+  18:07   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       1661  0.0  0.1  13632  5484 pts/0    Ss   18:07   0:01 -bash
+jorge       1915  0.0  0.1  13628  5540 pts/1    Ss+  18:08   0:00 bash
+jorge       2681  0.1  0.1  13816  5496 pts/2    Ss   18:11   0:02 -bash
+jorge       3586  1.6  0.0   2972  2452 pts/0    S+   18:44   0:00 ./examen8
+jorge       3615  0.0  0.0   2496   576 pts/2    S+   18:44   0:00 ./client 3290
+jorge       3616  0.0  0.0   2616   528 pts/0    S+   18:45   0:00 sh -c ps u >> .trazas-8/alumno-72357116J
+jorge       3617  0.0  0.0  14192  3528 pts/0    R+   18:45   0:00 ps u
+1652809501: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-8/.n_cliente>
+1652809501: COMMAND <ipcrm -M 0x72357116 >> .trazas-8/alumno-72357116J>
+1652809501: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652809501: COMMAND <rm /tmp/fifo_rd >> .trazas-8/alumno-72357116J>
+1652809501: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652809501: COMMAND <rm /tmp/fifo_wr >> .trazas-8/alumno-72357116J>
+1652809501: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652809501: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1652809501: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1652809501: 
+-------------------------------------------------------
+Creada la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652809501: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1652809501: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 11615.
+-------------------------------------------------------
+1652809501: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1652809501: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809501: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <11615>
+-------------------------------------------------------
+1652809503: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809504: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652809504: 
+-------------------------------------------------------
+Recibido 10 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809504: 
+-------------------------------------------------------
+Recibido via UDP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809504: 
+-------------------------------------------------------
+Recibida conexión <127.0.0.1> en servidor TCP en el puerto <11615>
+-------------------------------------------------------
+1652809504: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <194>.
+********************************************[0m
+1652809504: 
+-------------------------------------------------------
+REcibido via TCP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809504: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652809504: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <996>.
+********************************************[0m
+1652809504: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <53>.
+********************************************[0m
+1652809504: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809504: 
+-------------------------------------------------------
+Enviando via UDP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809504: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809507: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809507: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809507: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809507: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809507: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809507: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809510: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809510: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809510: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809510: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809510: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809510: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809513: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809513: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809513: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809513: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809513: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809513: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809516: 
+-------------------------------------------------------
+Enviando 11 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809516: 
+-------------------------------------------------------
+Enviando via UDP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809516: 
+-------------------------------------------------------
+Enviando via TCP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809516: 
+-------------------------------------------------------
+Recibido 9 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809516: 
+-------------------------------------------------------
+REcibido via TCP 9 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809516: 
+-------------------------------------------------------
+Recibido via UDP 9 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809516: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <8> es <409>.
+********************************************[0m
+1652809516: 
+-------------------------------------------------------
+Enviando via UDP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809516: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <359>.
+********************************************[0m
+1652809516: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809516: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <990>.
+********************************************[0m
+1652809516: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809517: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809517: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809517: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <160>.
+********************************************[0m
+1652809517: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809517: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809517: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809517: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <531>.
+********************************************[0m
+1652809517: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809517: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <9> es <314>.
+********************************************[0m
+1652809520: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809520: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809520: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809520: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809521: 
+-------------------------------------------------------
+Enviando via TCP 5 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809521: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809521: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <14> es <683>.
+********************************************[0m
+1652809523: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809523: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809523: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809523: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809526: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809526: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809526: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809526: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809529: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809529: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809529: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809529: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809533: 
+-------------------------------------------------------
+Enviando 5 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809533: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809533: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <13> es <502>.
+********************************************[0m
+1652809533: 
+-------------------------------------------------------
+Enviando via UDP 5 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809533: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809533: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <15> es <156>.
+********************************************[0m
+1652809540: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809725: COMMAND <cp ./examen8 /tmp/.examen8>
+1652809725: COMMAND <cp -f /tmp/.examen8 ./examen8>
+1652809725: COMMAND <uname -a >> .trazas-8/alumno-72357116J>
+Linux jorge-Standard-PC-Q35-ICH9-2009 5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+1652809725: COMMAND <ifconfig 2>&1 >> .trazas-8/alumno-72357116J>
+enp0s8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.60  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::38a5:f36e:2195:6199  prefixlen 64  scopeid 0x20<link>
+        ether 42:7f:6a:84:8f:09  txqueuelen 1000  (Ethernet)
+        RX packets 101177  bytes 26956792 (26.9 MB)
+        RX errors 0  dropped 284  overruns 0  frame 0
+        TX packets 44964  bytes 79169620 (79.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 232142
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 1021  bytes 89271 (89.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1021  bytes 89271 (89.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1652809725: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-8/alumno-72357116J>
+MACHINE-ID: 1652809725: COMMAND <cat /etc/machine-id >> .trazas-8/alumno-72357116J>
+886098e836214197a970d9673fee7410
+1652809725: 
+La máquina está ya identificada.
+1652809725: RX: <OK Accepted>
+1652809725: TX: <CHECKPWD 0uaiaNcMG41rnQ>
+1652809725: RX: <OK>
+1652809725: 
+********************************************
+           INICIANDO SESION
+********************************************
+1652809725: TX: <UUID f884f35f-cd38-434d-bf86-c7373a76f2e2>
+1652809725: RX: <REGISTERED>
+1652809725: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652809725: COMMAND <cp ./client.? .trazas-8>
+1652809725: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652809726: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h48\n" | 	  ftp -n 2>&1 > /dev/null>
+1652809726: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
+1652809736: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1652809736: COMMAND <ps u >> .trazas-8/alumno-72357116J>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jorge        822  0.0  0.1 166800  6644 tty2     Ssl+ 18:07   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+jorge        830  1.5  2.0 342356 84216 tty2     Sl+  18:07   0:38 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+jorge        998  0.0  0.3 193448 15428 tty2     Sl+  18:07   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+jorge       1661  0.0  0.1  13776  5484 pts/0    Ss   18:07   0:01 -bash
+jorge       1915  0.0  0.1  13628  5540 pts/1    Ss+  18:08   0:00 bash
+jorge       2681  0.0  0.1  13816  5496 pts/2    Ss   18:11   0:02 -bash
+jorge       3661  0.9  0.0   2972  2468 pts/0    S+   18:48   0:00 ./examen8
+jorge       3687  0.6  0.0   2496   508 pts/2    S+   18:48   0:00 ./client 3661
+jorge       3688  0.0  0.0   2616   596 pts/0    S+   18:48   0:00 sh -c ps u >> .trazas-8/alumno-72357116J
+jorge       3689  0.0  0.0  14192  3476 pts/0    R+   18:48   0:00 ps u
+1652809736: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-8/.n_cliente>
+1652809736: COMMAND <ipcrm -M 0x72357116 >> .trazas-8/alumno-72357116J>
+1652809736: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652809736: COMMAND <rm /tmp/fifo_rd >> .trazas-8/alumno-72357116J>
+1652809736: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652809736: COMMAND <rm /tmp/fifo_wr >> .trazas-8/alumno-72357116J>
+1652809736: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652809736: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1652809736: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1652809736: 
+-------------------------------------------------------
+Creada la memoria compartida <0x72357116L>
+-------------------------------------------------------
+1652809736: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1652809736: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 11687.
+-------------------------------------------------------
+1652809736: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1652809736: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809736: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <11687>
+-------------------------------------------------------
+1652809737: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1652809737: 
+-------------------------------------------------------
+Recibido 10 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809737: 
+-------------------------------------------------------
+Recibida una señal (10)
+-------------------------------------------------------
+1652809737: 
+-------------------------------------------------------
+Recibida conexión <127.0.0.1> en servidor TCP en el puerto <11687>
+-------------------------------------------------------
+1652809737: 
+-------------------------------------------------------
+Recibido via UDP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809737: 
+-------------------------------------------------------
+REcibido via TCP 10 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809737: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <194>.
+********************************************[0m
+1652809737: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <996>.
+********************************************[0m
+1652809737: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1652809737: 
+-------------------------------------------------------
+Enviando via UDP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809737: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <53>.
+********************************************[0m
+1652809737: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809737: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809737: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-8/.n_cliente>
+1652809737: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <10> es <631>.
+********************************************[0m
+1652809737: 
+-------------------------------------------------------
+Enviando SEÑAL (12) al proceso 3687.
+-------------------------------------------------------
+1652809739: 
+-------------------------------------------------------
+Enviando SEÑAL (12) al proceso 3687.
+-------------------------------------------------------
+1652809740: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809740: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809740: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809740: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809740: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809740: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809741: 
+-------------------------------------------------------
+Enviando SEÑAL (10) al proceso 3687.
+-------------------------------------------------------
+1652809742: 
+-------------------------------------------------------
+Enviando SEÑAL (12) al proceso 3687.
+-------------------------------------------------------
+1652809743: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809743: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809743: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809743: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809743: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809743: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809744: 
+-------------------------------------------------------
+Enviando SEÑAL (12) al proceso 3687.
+-------------------------------------------------------
+1652809746: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809746: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809746: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809746: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809746: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809746: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809746: 
+-------------------------------------------------------
+Enviando SEÑAL (12) al proceso 3687.
+-------------------------------------------------------
+1652809748: 
+-------------------------------------------------------
+Enviando SEÑAL (12) al proceso 3687.
+-------------------------------------------------------
+1652809749: 
+-------------------------------------------------------
+Enviando via UDP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809749: 
+-------------------------------------------------------
+Recibido via UDP 9 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809749: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <8> es <409>.
+********************************************[0m
+1652809749: 
+-------------------------------------------------------
+Enviando via UDP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809749: 
+-------------------------------------------------------
+Enviando via TCP 11 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809749: 
+-------------------------------------------------------
+Enviando 11 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809749: 
+-------------------------------------------------------
+REcibido via TCP 9 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809749: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <990>.
+********************************************[0m
+1652809749: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809749: 
+-------------------------------------------------------
+Recibido 9 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809749: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <359>.
+********************************************[0m
+1652809749: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809750: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809750: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809750: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <9> es <314>.
+********************************************[0m
+1652809750: 
+-------------------------------------------------------
+Enviando via TCP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809750: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809750: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <531>.
+********************************************[0m
+1652809750: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809750: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809750: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <160>.
+********************************************[0m
+1652809750: 
+-------------------------------------------------------
+Enviando SEÑAL (12) al proceso 3687.
+-------------------------------------------------------
+1652809752: 
+-------------------------------------------------------
+Enviando SEÑAL (10) al proceso 3687.
+-------------------------------------------------------
+1652809753: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809753: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809753: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809753: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809753: 
+-------------------------------------------------------
+Enviando SEÑAL (12) al proceso 3687.
+-------------------------------------------------------
+1652809754: 
+-------------------------------------------------------
+Enviando via TCP 5 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809754: 
+-------------------------------------------------------
+REcibido via TCP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809754: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <14> es <683>.
+********************************************[0m
+1652809755: 
+-------------------------------------------------------
+Enviando SEÑAL (12) al proceso 3687.
+-------------------------------------------------------
+1652809756: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809756: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809756: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809756: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809757: 
+-------------------------------------------------------
+Enviando SEÑAL (12) al proceso 3687.
+-------------------------------------------------------
+1652809759: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809759: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809759: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809759: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809759: 
+-------------------------------------------------------
+Contador 3 de KA no coincide 0.
+-------------------------------------------------------
+1652809762: 
+-------------------------------------------------------
+Enviando via UDP 3 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809762: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809762: 
+-------------------------------------------------------
+Enviando 3 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809762: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809766: 
+-------------------------------------------------------
+Enviando via UDP 5 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1652809766: 
+-------------------------------------------------------
+Recibido via UDP 4 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1652809766: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <15> es <156>.
+********************************************[0m
+1652809766: 
+-------------------------------------------------------
+Enviando 5 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1652809766: 
+-------------------------------------------------------
+Recibido 4 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1652809766: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <13> es <502>.
+********************************************[0m
+1652809789: COMMAND <who >> .trazas-8/alumno-72357116J>
+jorge    :0           2022-05-17 20:07 (:0)
+jorge    pts/0        2022-05-17 18:07 (192.168.1.36)
+jorge    pts/2        2022-05-17 18:11 (192.168.1.36)
+1652809827: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-8" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1652809827: COMMAND <cp ./client.? .trazas-8>
+1652809827: COMMAND <tar zcf save_file-72357116J .trazas-8 > /dev/null>
+1652809827: COMMAND <echo "\nopen u017633.ehu.es\nuser anonymous anonymous\npassive\ncd LAB2022/examen-8\nput save_file-72357116J 72357116J-17-5-18h48\n" | 	  ftp -n 2>&1 > /dev/null>
+1652809828: COMMAND <test -f .trazas-8/.clean_bck.tz && rm .trazas-8/.clean_bck.tz>
